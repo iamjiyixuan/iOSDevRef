@@ -20,7 +20,7 @@
  * [网络编程](#网络编程)
   * [苹果官方文档](#苹果官方文档)
  * [内存管理](#内存管理)
- * [XML & json](#xml-&-json)
+ * [XML & JSON](#xml-&-json)
  * [地图 & 定位](#地图-&-定位)
  * [二维码](#二维码)
  * [经验之谈](#经验之谈)
@@ -44,10 +44,10 @@
 0. [Objective-C Runtime Programming Guide][Objective-C Runtime Programming Guide]
 
 ### Objective-C Runtime
-0. [刨根问底Objective－C Runtime（1）－ Self & Super][刨根问底Objective－C Runtime（1）－ Self & Super] by [Chun Tips][Chun Tips]
-0. [刨根问底Objective－C Runtime（2）－ Object & Class & Meta Class][刨根问底Objective－C Runtime（2）－ Object & Class & Meta Class] by [Chun Tips][Chun Tips]
-0. [刨根问底Objective－C Runtime（3）－ 消息 和 Category][刨根问底Objective－C Runtime（3）－ 消息 和 Category] by [Chun Tips][Chun Tips]
-0. [刨根问底Objective－C Runtime（4）－ 成员变量与属性][刨根问底Objective－C Runtime（4）－ 成员变量与属性] by [Chun Tips][Chun Tips]
+0. [刨根问底Objective-C Runtime（1）－ Self & Super][刨根问底Objective-C Runtime（1）－ Self & Super] by [Chun Tips][Chun Tips]
+0. [刨根问底Objective-C Runtime（2）－ Object & Class & Meta Class][刨根问底Objective-C Runtime（2）－ Object & Class & Meta Class] by [Chun Tips][Chun Tips]
+0. [刨根问底Objective-C Runtime（3）－ 消息 和 Category][刨根问底Objective-C Runtime（3）－ 消息 和 Category] by [Chun Tips][Chun Tips]
+0. [刨根问底Objective-C Runtime（4）－ 成员变量与属性][刨根问底Objective-C Runtime（4）－ 成员变量与属性] by [Chun Tips][Chun Tips]
 0. [Objective-C Runtime][Objective-C Runtime] by [玉令天下的Blog][玉令天下的Blog]
 
 ### Block
@@ -107,7 +107,7 @@
 
 ## 内存管理
 
-## XML & json
+## XML & JSON
 
 ## 地图 & 定位
 
@@ -147,10 +147,10 @@
 [Adopting Modern Objective-C]:https://developer.apple.com/library/ios/releasenotes/ObjectiveC/ModernizationObjC/AdoptingModernObjective-C/AdoptingModernObjective-C.html
 [Blocks Programming Topics]:https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/Blocks/Articles/00_Introduction.html
 [Objective-C Runtime Programming Guide]:https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Introduction/Introduction.html
-[刨根问底Objective－C Runtime（1）－ Self & Super]: http://chun.tips/blog/2014/11/05/bao-gen-wen-di-objective%5Bnil%5Dc-runtime%281%29%5Bnil%5D-self-and-super/
-[刨根问底Objective－C Runtime（2）－ Object & Class & Meta Class]: http://chun.tips/blog/2014/11/05/bao-gen-wen-di-objective%5Bnil%5Dc-runtime-%282%29%5Bnil%5D-object-and-class-and-meta-class/
-[刨根问底Objective－C Runtime（3）－ 消息 和 Category]: http://chun.tips/blog/2014/11/06/bao-gen-wen-di-objective%5Bnil%5Dc-runtime%283%29%5Bnil%5D-xiao-xi-he-category/
-[刨根问底Objective－C Runtime（4）－ 成员变量与属性]: http://chun.tips/blog/2014/11/08/bao-gen-wen-di-objective%5Bnil%5Dc-runtime%284%29%5Bnil%5D-cheng-yuan-bian-liang-yu-shu-xing/
+[刨根问底Objective-C Runtime（1）－ Self & Super]: http://chun.tips/blog/2014/11/05/bao-gen-wen-di-objective%5Bnil%5Dc-runtime%281%29%5Bnil%5D-self-and-super/
+[刨根问底Objective-C Runtime（2）－ Object & Class & Meta Class]: http://chun.tips/blog/2014/11/05/bao-gen-wen-di-objective%5Bnil%5Dc-runtime-%282%29%5Bnil%5D-object-and-class-and-meta-class/
+[刨根问底Objective-C Runtime（3）－ 消息 和 Category]: http://chun.tips/blog/2014/11/06/bao-gen-wen-di-objective%5Bnil%5Dc-runtime%283%29%5Bnil%5D-xiao-xi-he-category/
+[刨根问底Objective-C Runtime（4）－ 成员变量与属性]: http://chun.tips/blog/2014/11/08/bao-gen-wen-di-objective%5Bnil%5Dc-runtime%284%29%5Bnil%5D-cheng-yuan-bian-liang-yu-shu-xing/
 [Objective-C Runtime]: http://yulingtianxia.com/blog/2014/11/05/objective-c-runtime/
 [谈Objective-C Block的实现]: http://blog.devtang.com/blog/2013/07/28/a-look-inside-blocks/
 [Objective-C中的Block]: http://www.onevcat.com/2011/11/objc-block/
