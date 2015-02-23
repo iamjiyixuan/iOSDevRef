@@ -5,17 +5,22 @@
  * [入门](#入门)
  * [Objective-C编程](#objective-c编程)
   * [Objective-C Runtime](#objective-c-runtime)
+  * [AOP](#aop)
   * [Block](#block)
  * [Foundation框架](#foundation框架)
   * [字符串](#字符串)
   * [集合](#集合)
  * [UIKit框架](#uikit框架)
-  * [布局](#布局)
+  * [自动布局](#自动布局)
+  * [UIView/UIViewController](#uiview/uiviewcontroller)
+  * [UITableView](#uitableview)
+  * [UIScrollView](#uiscrollview)
  * [编码规范](#编码规范)
  * [测试](#测试)
  * [并发编程](#并发编程)
  * [网络编程](#网络编程)
  * [内存管理](#内存管理)
+ * [CocoaPods](#cocoapods)
  * [XML & JSON](#xml-&-json)
  * [地图 & 定位](#地图-&-定位)
  * [国际化](#国际化)
@@ -48,7 +53,11 @@
 0. [刨根问底Objective-C Runtime（2）－ Object & Class & Meta Class][刨根问底Objective-C Runtime（2）－ Object & Class & Meta Class] by [Chun Tips][Chun Tips]
 0. [刨根问底Objective-C Runtime（3）－ 消息 和 Category][刨根问底Objective-C Runtime（3）－ 消息 和 Category] by [Chun Tips][Chun Tips]
 0. [刨根问底Objective-C Runtime（4）－ 成员变量与属性][刨根问底Objective-C Runtime（4）－ 成员变量与属性] by [Chun Tips][Chun Tips]
-0. [Objective-C Runtime][Objective-C Runtime] by [玉令天下的Blog][玉令天下的Blog]
+0. [Objective-C Runtime][Objective-C Runtime1] by [玉令天下的Blog][玉令天下的Blog]
+0. [Objective-C Runtime][Objective-C Runtime2] by [Glow 技术团队博客][Glow 技术团队博客]
+
+### AOP
+0. [Method Swizzling 和 AOP 实践][Method Swizzling 和 AOP 实践] by [Glow 技术团队博客][Glow 技术团队博客]
 
 ### Block
 0. [Blocks Programming Topics][Blocks Programming Topics] by [苹果官方][苹果官方]
@@ -76,14 +85,25 @@
 
 ## UIKit框架
 0. [App Programming Guide for iOS][App Programming Guide for iOS] by [苹果官方][苹果官方]
+0. [Collection View Programming Guide for iOS][Collection View Programming Guide for iOS] by [苹果官方][苹果官方]
+0. [代码手写UI，xib和StoryBoard间的博弈，以及Interface Builder的一些小技巧][代码手写UI，xib和StoryBoard间的博弈，以及Interface Builder的一些小技巧] by [OneV's Den][OneV's Den]
+
+### UIView/UIViewController
 0. [View Programming Guide for iOS][View Programming Guide for iOS] by [苹果官方][苹果官方]
 0. [View Controller Programming Guide for iOS][View Controller Programming Guide for iOS] by [苹果官方][苹果官方]
 0. [View Controller Catalog for iOS][View Controller Catalog for iOS] by [苹果官方][苹果官方]
-0. [Table View Programming Guide for iOS][Table View Programming Guide for iOS] by [苹果官方][苹果官方]
-0. [Collection View Programming Guide for iOS][Collection View Programming Guide for iOS] by [苹果官方][苹果官方]
-0. [Scroll View Programming Guide for iOS][Scroll View Programming Guide for iOS] by [苹果官方][苹果官方]
+0. [更轻量的 View Controllers][更轻量的 View Controllers] by [objc中国][objc中国]
+0. [View Controller 容器][View Controller 容器] by [objc中国][objc中国]
 
-### 布局
+### UITableView
+0. [Table View Programming Guide for iOS][Table View Programming Guide for iOS] by [苹果官方][苹果官方]
+0. [整洁的 Table View 代码][整洁的 Table View 代码] by [objc中国][objc中国]
+
+### UIScrollView
+0. [Scroll View Programming Guide for iOS][Scroll View Programming Guide for iOS] by [苹果官方][苹果官方]
+0. [UIScrollView 实践经验][UIScrollView 实践经验] by [Glow 技术团队博客][Glow 技术团队博客]
+
+### 自动布局
 0. [Auto Layout Guide][Auto Layout Guide] by [苹果官方][苹果官方]
 0. [开始iOS7中自动布局的教程（一）][开始iOS7中自动布局的教程（一）] by [answer-huang][answer-huang]
 0. [WWDC 2012 Session笔记——202, 228, 232 AutoLayout（自动布局）入门][WWDC 2012 Session笔记——202, 228, 232 AutoLayout（自动布局）入门] by [OneV's Den][OneV's Den]
@@ -149,12 +169,22 @@
 0. [苹果开发者账号那些事儿（二）][苹果开发者账号那些事儿（二）] by [唐韧_Ryan][唐韧_Ryan]
 0. [苹果开发者账号那些事儿（三）][苹果开发者账号那些事儿（三）] by [唐韧_Ryan][唐韧_Ryan]
 
-## 制作文档
-0. [使用Objective-C的文档生成工具:appledoc][使用Objective-C的文档生成工具:appledoc] by [唐巧][唐巧]
-
 ## 经验之谈
 0. [iOS开发如何提高][iOS开发如何提高]  by [唐巧][唐巧]
 0. [iOS开发如何快速成长?][iOS开发如何快速成长?] by [叶孤城][叶孤城]
+
+## 工具
+
+### CocoaPods
+0. [CocoaPods][CocoaPodsByMatttThompson] by [Mattt Thompson][Mattt Thompson] | [中文翻译][CocoaPodsByMatttThompson译] by David Liu
+0. [CocoaPods安装和使用教程][CocoaPods安装和使用教程] by Code4App
+0. [用CocoaPods做iOS程序的依赖管理][用CocoaPods做iOS程序的依赖管理] by [唐巧][唐巧]
+0. [CocoaPods最佳实践探讨][CocoaPods最佳实践探讨] by [王_晓磊](http://weibo.com/xiaoleiwang) 
+0. [极速化 CocoaPods][极速化 CocoaPods] by [icyleaf][icyleaf]
+0. [深入理解 CocoaPods][深入理解 CocoaPods] by [objc中国][objc中国]
+
+### appledoc
+0. [使用Objective-C的文档生成工具:appledoc][使用Objective-C的文档生成工具:appledoc] by [唐巧][唐巧]
 
 ## 附A 站点列表
 站点地址 | 站点简介 |
@@ -163,12 +193,16 @@
 [objc.io][objc.io] | ... |
 [objc中国][objc中国] | objc.io中文翻译 |
 [Ray Wenderlich][raywenderlich] | 英文教程网 |
+[NSHipster][NSHipster] | NSHipster is a journal of the overlooked bits in Objective-C, Swift, and Cocoa. Updated weekly. |
+[NSHipster中文版][NSHipster中文版] | NSHipster中文翻译 |
 
 ## 附B 博客列表
 博客地址 | 博主简介 |
 ------------ | ------------ |
+[Mattt Thompson][Mattt Thompson] | Matt大神，AFNetworking作者。|
 [唐巧的技术博客][唐巧] | 唐巧，资深iOS开发者，InfoQ编辑，Blogger，目前在猿题库创业。|
 [OneV's Den][OneV's Den] | 王巍（喵神），iOS/Unity开发者，objc中国发起者。现居日本，就职于 LINE。|
+[Glow 技术团队博客][Glow 技术团队博客] | ... |
 
 [----]: "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 
@@ -185,6 +219,11 @@
 [不会开机的男孩]: http://studentdeng.github.io/
 [玉令天下的Blog]: http://yulingtianxia.com/
 [Pivotal Labs]: http://pivotallabs.com/
+[Glow 技术团队博客]:http://tech.glowing.com/cn/ "Glow 技术团队博客"
+[NSHipster]:http://nshipster.com/ "NSHipster"
+[NSHipster中文版]:http://nshipster.cn/ "NSHipster中文版"
+[Mattt Thompson]:http://nshipster.com/authors/mattt-thompson/ "Mattt Thompson"
+[icyleaf]: http://icyleaf.com/ "icyleaf"
 
 [入门]: ""
 [Start Developing iOS Apps Today]:https://developer.apple.com/library/ios/referencelibrary/GettingStarted/RoadMapiOSCh/index.html
@@ -201,7 +240,9 @@
 [刨根问底Objective-C Runtime（2）－ Object & Class & Meta Class]: http://chun.tips/blog/2014/11/05/bao-gen-wen-di-objective%5Bnil%5Dc-runtime-%282%29%5Bnil%5D-object-and-class-and-meta-class/
 [刨根问底Objective-C Runtime（3）－ 消息 和 Category]: http://chun.tips/blog/2014/11/06/bao-gen-wen-di-objective%5Bnil%5Dc-runtime%283%29%5Bnil%5D-xiao-xi-he-category/
 [刨根问底Objective-C Runtime（4）－ 成员变量与属性]: http://chun.tips/blog/2014/11/08/bao-gen-wen-di-objective%5Bnil%5Dc-runtime%284%29%5Bnil%5D-cheng-yuan-bian-liang-yu-shu-xing/
-[Objective-C Runtime]: http://yulingtianxia.com/blog/2014/11/05/objective-c-runtime/
+[Objective-C Runtime1]:http://yulingtianxia.com/blog/2014/11/05/objective-c-runtime/ "Objective-C Runtime1"
+[Objective-C Runtime2]:http://tech.glowing.com/cn/objective-c-runtime/ "Objective-C Runtime2"
+[Method Swizzling 和 AOP 实践]:http://tech.glowing.com/cn/method-swizzling-aop/ "Method Swizzling 和 AOP 实践"
 [谈Objective-C Block的实现]: http://blog.devtang.com/blog/2013/07/28/a-look-inside-blocks/
 [Objective-C中的Block]: http://www.onevcat.com/2011/11/objc-block/
 [Wrapping Objective-C Delegates with Blocks]: http://pivotallabs.com/wrapping-delegates-blocks/
@@ -237,6 +278,11 @@
 [SizeClass和AutoLayout教程2]: http://www.jianshu.com/p/a4cf3db81c0b
 [SizeClass和AutoLayout教程3]: http://www.jianshu.com/p/3d6b2341fd83
 [SizeClass和AutoLayout教程4]: http://www.jianshu.com/p/e72e957497b3
+[UIScrollView 实践经验]:http://tech.glowing.com/cn/practice-in-uiscrollview/ "UIScrollView 实践经验"
+[更轻量的 View Controllers]:http://objccn.io/issue-1-1/ "更轻量的 View Controllers"
+[整洁的 Table View 代码]:http://objccn.io/issue-1-2/ "整洁的 Table View 代码"
+[View Controller 容器]:http://objccn.io/issue-1-4/ "View Controller 容器"
+[代码手写UI，xib和StoryBoard间的博弈，以及Interface Builder的一些小技巧]:http://onevcat.com/2013/12/code-vs-xib-vs-storyboard/ "代码手写UI，xib和StoryBoard间的博弈，以及Interface Builder的一些小技巧"
 
 [编码规范]: ""
 [Coding Guidelines for Cocoa]:https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html
@@ -295,9 +341,16 @@
 [苹果开发者账号那些事儿（二）]: http://ryantang.me/blog/2013/09/03/apple-account-2/
 [苹果开发者账号那些事儿（三）]: http://ryantang.me/blog/2013/11/28/apple-account-3/
 
-[制作文档]: ""
-[使用Objective-C的文档生成工具:appledoc]: http://blog.devtang.com/blog/2012/02/01/use-appledoc-to-generate-xcode-doc/
-
 [经验之谈]: ""
 [iOS开发如何提高]: http://blog.devtang.com/blog/2014/07/27/ios-levelup-tips/
 [iOS开发如何快速成长?]:http://www.jianshu.com/p/5adb536fd32b
+
+[工具]: ""
+[CocoaPodsByMatttThompson]:http://nshipster.com/cocoapods/ "CocoaPodsByMatttThompson"
+[CocoaPodsByMatttThompson译]:http://nshipster.cn/cocoapods/ "CocoaPodsByMatttThompson译"
+[CocoaPods安装和使用教程]: http://code4app.com/article/cocoapods-install-usage "CocoaPods安装和使用教程"
+[用CocoaPods做iOS程序的依赖管理]: http://blog.devtang.com/blog/2014/05/25/use-cocoapod-to-manage-ios-lib-dependency/ "用CocoaPods做iOS程序的依赖管理"
+[CocoaPods最佳实践探讨]: http://weibo.com/p/1001603800875490492754 "CocoaPods最佳实践探讨"
+[极速化 CocoaPods]: http://icyleaf.com/2015/01/speed-up-cocoapods/ "极速化 CocoaPods"
+[深入理解 CocoaPods]: http://objccn.io/issue-6-4/ "深入理解 CocoaPods"
+[使用Objective-C的文档生成工具:appledoc]: http://blog.devtang.com/blog/2012/02/01/use-appledoc-to-generate-xcode-doc/ "使用Objective-C的文档生成工具:appledoc"
