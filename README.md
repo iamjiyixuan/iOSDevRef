@@ -11,24 +11,31 @@
   * [字符串](#字符串)
   * [集合](#集合)
  * [UIKit框架](#uikit框架)
-  * [自动布局](#自动布局)
   * [UIView/UIViewController](#uiview/uiviewcontroller)
-  * [UITableView](#uitableview)
+  * [UITextView](#uitextview)
+  * [UITableView/UITableViewController](#uitableview/uitableviewcontroller)
   * [UIScrollView](#uiscrollview)
+  * [自动布局](#自动布局)
+ * [Core Animation](#core-animation)
  * [编码规范](#编码规范)
  * [测试](#测试)
  * [并发编程](#并发编程)
  * [网络编程](#网络编程)
  * [内存管理](#内存管理)
- * [CocoaPods](#cocoapods)
  * [XML & JSON](#xml-&-json)
  * [地图 & 定位](#地图-&-定位)
  * [国际化](#国际化)
  * [二维码](#二维码)
  * [字体](#字体)
  * [苹果开发者账号](#苹果开发者账号)
- * [制作文档](#制作文档)
  * [经验之谈](#经验之谈)
+ * [读书笔记](#读书笔记)
+  * [Effective Objective-C](#effective-objective-c)
+ * [交互设计](#交互设计)
+ * [调试技巧](#调试技巧)
+ * [工具](#工具)
+  * [CocoaPods](#cocoapods)
+  * [appledoc](#appledoc)
  * [附A 站点列表](#附a-站点列表)
  * [附B 博客列表](#附b-博客列表)
 
@@ -38,7 +45,6 @@
 ## 入门
 0. [Start Developing iOS Apps Today][Start Developing iOS Apps Today] by [苹果官方][苹果官方]
 0. [iOS Technology Overview][iOS Technology Overview] by [苹果官方][苹果官方]
-0. [iOS Human Interface Guidelines][iOS Human Interface Guidelines] by [苹果官方][苹果官方]
 
 ## Objective-C编程
 0. [Programming with Objective-C][Programming with Objective-C] by [苹果官方][苹果官方]
@@ -55,6 +61,7 @@
 0. [刨根问底Objective-C Runtime（4）－ 成员变量与属性][刨根问底Objective-C Runtime（4）－ 成员变量与属性] by [Chun Tips][Chun Tips]
 0. [Objective-C Runtime][Objective-C Runtime1] by [玉令天下的Blog][玉令天下的Blog]
 0. [Objective-C Runtime][Objective-C Runtime2] by [Glow 技术团队博客][Glow 技术团队博客]
+0. [如何自己动手实现 KVO][如何自己动手实现 KVO] by [Glow 技术团队博客][Glow 技术团队博客]
 
 ### AOP
 0. [Method Swizzling 和 AOP 实践][Method Swizzling 和 AOP 实践] by [Glow 技术团队博客][Glow 技术团队博客]
@@ -95,7 +102,10 @@
 0. [更轻量的 View Controllers][更轻量的 View Controllers] by [objc中国][objc中国]
 0. [View Controller 容器][View Controller 容器] by [objc中国][objc中国]
 
-### UITableView
+### UITextView
+0. [UITextView编辑时插入自定义表情-简单的图文混编](http://tutuge.me/2015/03/07/UITextView%E7%BC%96%E8%BE%91%E6%97%B6%E6%8F%92%E5%85%A5%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A1%A8%E6%83%85-%E7%AE%80%E5%8D%95%E7%9A%84%E5%9B%BE%E6%96%87%E6%B7%B7%E7%BC%96/) by [土土哥的技术Blog][土土哥的技术Blog]
+
+### UITableView/UITableViewController
 0. [Table View Programming Guide for iOS][Table View Programming Guide for iOS] by [苹果官方][苹果官方]
 0. [整洁的 Table View 代码][整洁的 Table View 代码] by [objc中国][objc中国]
 
@@ -111,6 +121,10 @@
 0. [SizeClass和AutoLayout教程2][SizeClass和AutoLayout教程2] by [叶孤城][叶孤城]
 0. [SizeClass和AutoLayout教程3][SizeClass和AutoLayout教程3] by [叶孤城][叶孤城]
 0. [SizeClass和AutoLayout教程4][SizeClass和AutoLayout教程4] by [叶孤城][叶孤城]
+
+## Core Animation
+0. [Core Animation Programming Guide][Core Animation Programming Guide] by [苹果官方][苹果官方]
+0. [Core Animation Programming Guide 译] by 海水的味道
 
 ## 编码规范
 0. [Coding Guidelines for Cocoa][Coding Guidelines for Cocoa] by [苹果官方][苹果官方]
@@ -173,6 +187,19 @@
 0. [iOS开发如何提高][iOS开发如何提高]  by [唐巧][唐巧]
 0. [iOS开发如何快速成长?][iOS开发如何快速成长?] by [叶孤城][叶孤城]
 
+## 读书笔记
+
+### Effective Objective-C
+0. [Effective-Objective-C-读书笔记-Item-1](http://tutuge.me/2015/02/05/Effective-Objective-C-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-Item-1/) by [土土哥的技术Blog][土土哥的技术Blog]
+0. [Effective-Objective-C-读书笔记-Item-2](http://tutuge.me/2015/02/06/Effective-Objective-C-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-Item-2/) by [土土哥的技术Blog][土土哥的技术Blog]
+0. [Effective-Objective-C-读书笔记-Item-3](http://tutuge.me/2015/02/14/Effective-Objective-C-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-Item-3/) by [土土哥的技术Blog][土土哥的技术Blog]
+0. [Effective-Objective-C-读书笔记-Item-4-如何正确定义常量](http://tutuge.me/2015/03/11/Effective-Objective-C-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-Item-4-%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E5%AE%9A%E4%B9%89%E5%B8%B8%E9%87%8F/) by [土土哥的技术Blog][土土哥的技术Blog]
+
+## 交互设计
+0. [iOS Human Interface Guidelines][iOS Human Interface Guidelines] by [苹果官方][苹果官方]
+
+## 调试技巧
+
 ## 工具
 
 ### CocoaPods
@@ -199,10 +226,18 @@
 ## 附B 博客列表
 博客地址 | 博主简介 |
 ------------ | ------------ |
-[Mattt Thompson][Mattt Thompson] | Matt大神，AFNetworking作者。|
+[Mattt Thompson][Mattt Thompson] | AFNetworking作者。|
 [唐巧的技术博客][唐巧] | 唐巧，资深iOS开发者，InfoQ编辑，Blogger，目前在猿题库创业。|
 [OneV's Den][OneV's Den] | 王巍（喵神），iOS/Unity开发者，objc中国发起者。现居日本，就职于 LINE。|
+[叶孤城][叶孤城] | ... |
+[唐韧_Ryan][唐韧_Ryan] | ... |
+[不会开机的男孩][不会开机的男孩] | ... |
+[玉令天下的Blog][玉令天下的Blog] | 杨萧玉，... |
+[Chun Tips][Chun Tips] | 叶纯俊，... |
+[answer-huang][answer-huang] | ... |
+[icyleaf][icyleaf] | ... |
 [Glow 技术团队博客][Glow 技术团队博客] | ... |
+[土土哥的技术Blog][土土哥的技术Blog] | ... |
 
 [----]: "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 
@@ -224,11 +259,11 @@
 [NSHipster中文版]:http://nshipster.cn/ "NSHipster中文版"
 [Mattt Thompson]:http://nshipster.com/authors/mattt-thompson/ "Mattt Thompson"
 [icyleaf]: http://icyleaf.com/ "icyleaf"
+[土土哥的技术Blog]:http://tutuge.me/ "土土哥的技术Blog"
 
 [入门]: ""
 [Start Developing iOS Apps Today]:https://developer.apple.com/library/ios/referencelibrary/GettingStarted/RoadMapiOSCh/index.html
 [iOS Technology Overview]:https://developer.apple.com/library/ios/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/Introduction/Introduction.html
-[iOS Human Interface Guidelines]:https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/
 
 [Objective-C编程]: ""
 [Programming with Objective-C]:https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html
@@ -242,6 +277,7 @@
 [刨根问底Objective-C Runtime（4）－ 成员变量与属性]: http://chun.tips/blog/2014/11/08/bao-gen-wen-di-objective%5Bnil%5Dc-runtime%284%29%5Bnil%5D-cheng-yuan-bian-liang-yu-shu-xing/
 [Objective-C Runtime1]:http://yulingtianxia.com/blog/2014/11/05/objective-c-runtime/ "Objective-C Runtime1"
 [Objective-C Runtime2]:http://tech.glowing.com/cn/objective-c-runtime/ "Objective-C Runtime2"
+[如何自己动手实现 KVO]:http://tech.glowing.com/cn/implement-kvo/ "如何自己动手实现 KVO"
 [Method Swizzling 和 AOP 实践]:http://tech.glowing.com/cn/method-swizzling-aop/ "Method Swizzling 和 AOP 实践"
 [谈Objective-C Block的实现]: http://blog.devtang.com/blog/2013/07/28/a-look-inside-blocks/
 [Objective-C中的Block]: http://www.onevcat.com/2011/11/objc-block/
@@ -283,6 +319,10 @@
 [整洁的 Table View 代码]:http://objccn.io/issue-1-2/ "整洁的 Table View 代码"
 [View Controller 容器]:http://objccn.io/issue-1-4/ "View Controller 容器"
 [代码手写UI，xib和StoryBoard间的博弈，以及Interface Builder的一些小技巧]:http://onevcat.com/2013/12/code-vs-xib-vs-storyboard/ "代码手写UI，xib和StoryBoard间的博弈，以及Interface Builder的一些小技巧"
+
+[Core Animation]: ""
+[Core Animation Programming Guide]:https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/CoreAnimation_guide/Introduction/Introduction.html "Core Animation Programming Guide"
+[Core Animation Programming Guide 译]:http://www.cnblogs.com/xdream86/p/3250782.html "Core Animation Programming Guide 译"
 
 [编码规范]: ""
 [Coding Guidelines for Cocoa]:https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html
@@ -344,6 +384,13 @@
 [经验之谈]: ""
 [iOS开发如何提高]: http://blog.devtang.com/blog/2014/07/27/ios-levelup-tips/
 [iOS开发如何快速成长?]:http://www.jianshu.com/p/5adb536fd32b
+
+[读书笔记]: ""
+
+[交互设计]: ""
+[iOS Human Interface Guidelines]:https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/
+
+[调试技巧]: ""
 
 [工具]: ""
 [CocoaPodsByMatttThompson]:http://nshipster.com/cocoapods/ "CocoaPodsByMatttThompson"
