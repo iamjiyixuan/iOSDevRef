@@ -15,12 +15,15 @@
   * [UITextView](#uitextview)
   * [UITableView/UITableViewController](#uitableview/uitableviewcontroller)
   * [UIScrollView](#uiscrollview)
-  * [自动布局](#自动布局)
+  * [AutoLayout](#autolayout)
  * [Core Animation](#core-animation)
  * [编码规范](#编码规范)
  * [测试](#测试)
  * [并发编程](#并发编程)
  * [网络编程](#网络编程)
+  * [TCP](#tcp)
+  * [HTTP](#http)
+  * [XMPP](#xmpp)
  * [内存管理](#内存管理)
  * [XML & JSON](#xml-&-json)
  * [地图 & 定位](#地图-&-定位)
@@ -113,7 +116,7 @@
 0. [Scroll View Programming Guide for iOS][Scroll View Programming Guide for iOS] by [苹果官方][苹果官方]
 0. [UIScrollView 实践经验][UIScrollView 实践经验] by [Glow 技术团队博客][Glow 技术团队博客]
 
-### 自动布局
+### AutoLayout
 0. [Auto Layout Guide][Auto Layout Guide] by [苹果官方][苹果官方]
 0. [开始iOS7中自动布局的教程（一）][开始iOS7中自动布局的教程（一）] by [answer-huang][answer-huang]
 0. [WWDC 2012 Session笔记——202, 228, 232 AutoLayout（自动布局）入门][WWDC 2012 Session笔记——202, 228, 232 AutoLayout（自动布局）入门] by [OneV's Den][OneV's Den]
@@ -121,10 +124,12 @@
 0. [SizeClass和AutoLayout教程2][SizeClass和AutoLayout教程2] by [叶孤城][叶孤城]
 0. [SizeClass和AutoLayout教程3][SizeClass和AutoLayout教程3] by [叶孤城][叶孤城]
 0. [SizeClass和AutoLayout教程4][SizeClass和AutoLayout教程4] by [叶孤城][叶孤城]
+0. [Masonry介绍与使用实践（快速上手Autolayout）](http://adad184.com/2014/09/28/use-masonry-to-quick-solve-autolayout/) by [里脊串的开发随笔][里脊串的开发随笔]
 
 ## Core Animation
 0. [Core Animation Programming Guide][Core Animation Programming Guide] by [苹果官方][苹果官方]
 0. [Core Animation Programming Guide 译] by 海水的味道
+0. [POP介绍与使用实践（快速上手动画）](http://adad184.com/2015/03/11/2015-03-11-intro-to-pop/) by [里脊串的开发随笔][里脊串的开发随笔]
 
 ## 编码规范
 0. [Coding Guidelines for Cocoa][Coding Guidelines for Cocoa] by [苹果官方][苹果官方]
@@ -160,6 +165,14 @@
 ## 网络编程
 0. [Networking Concepts][Networking Concepts] by [苹果官方][苹果官方]
 0. [Networking Overview][Networking Overview] by [苹果官方][苹果官方]
+
+### TCP
+0. [TCP 的那些事儿（上）](http://coolshell.cn/articles/11564.html) by [酷壳][酷壳]
+0. [TCP 的那些事儿（下）](http://coolshell.cn/articles/11609.html) by [酷壳][酷壳]
+
+### HTTP
+
+### XMPP
 
 ## 内存管理
 
@@ -238,8 +251,11 @@
 [icyleaf][icyleaf] | ... |
 [Glow 技术团队博客][Glow 技术团队博客] | ... |
 [土土哥的技术Blog][土土哥的技术Blog] | ... |
+[里脊串的开发随笔][里脊串的开发随笔] | ... |
 
 [----]: "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
+
+[酷壳]:http://coolshell.cn/ "酷壳"
 
 [苹果官方]: https://developer.apple.com/library/ios/navigation/
 [objc.io]: http://www.objc.io/
@@ -260,6 +276,7 @@
 [Mattt Thompson]:http://nshipster.com/authors/mattt-thompson/ "Mattt Thompson"
 [icyleaf]: http://icyleaf.com/ "icyleaf"
 [土土哥的技术Blog]:http://tutuge.me/ "土土哥的技术Blog"
+[里脊串的开发随笔]:http://adad184.com/ "里脊串的开发随笔"
 
 [入门]: ""
 [Start Developing iOS Apps Today]:https://developer.apple.com/library/ios/referencelibrary/GettingStarted/RoadMapiOSCh/index.html
