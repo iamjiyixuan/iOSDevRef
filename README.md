@@ -14,6 +14,7 @@
   * [UIView/UIViewController](#uiview/uiviewcontroller)
   * [UITextView](#uitextview)
   * [UITableView/UITableViewController](#uitableview/uitableviewcontroller)
+  * [UICollection​View](#uicollection​view)
   * [UIScrollView](#uiscrollview)
   * [AutoLayout](#autolayout)
  * [Core Animation](#core-animation)
@@ -46,18 +47,18 @@
 本文档整理iOS开发参考资料。本文档将不断更新维护 ~
 
 ## 入门
-0. [Start Developing iOS Apps Today][Start Developing iOS Apps Today] by [苹果官方][苹果官方]
-0. [iOS Technology Overview][iOS Technology Overview] by [苹果官方][苹果官方]
+0. [Start Developing iOS Apps Today][Start Developing iOS Apps Today] by [iOS Developer Library][iOS Developer Library]
+0. [iOS Technology Overview][iOS Technology Overview] by [iOS Developer Library][iOS Developer Library]
 
 ## Objective-C编程
-0. [Programming with Objective-C][Programming with Objective-C] by [苹果官方][苹果官方]
-0. [Object-Oriented Programming with Objective-C][Object-Oriented Programming with Objective-C] by [苹果官方][苹果官方]
-0. [Adopting Modern Objective-C][Adopting Modern Objective-C] by [苹果官方][苹果官方]
+0. [Programming with Objective-C][Programming with Objective-C] by [iOS Developer Library][iOS Developer Library]
+0. [Object-Oriented Programming with Objective-C][Object-Oriented Programming with Objective-C] by [iOS Developer Library][iOS Developer Library]
+0. [Adopting Modern Objective-C][Adopting Modern Objective-C] by [iOS Developer Library][iOS Developer Library]
 0. [谈ObjC对象的两段构造模式][谈ObjC对象的两段构造模式] by [唐巧][唐巧]
 0. [Objective-C对象模型及应用][Objective-C对象模型及应用] by [唐巧][唐巧]
 
 ### Objective-C Runtime
-0. [Objective-C Runtime Programming Guide][Objective-C Runtime Programming Guide] by [苹果官方][苹果官方]
+0. [Objective-C Runtime Programming Guide][Objective-C Runtime Programming Guide] by [iOS Developer Library][iOS Developer Library]
 0. [刨根问底Objective-C Runtime（1）－ Self & Super][刨根问底Objective-C Runtime（1）－ Self & Super] by [Chun Tips][Chun Tips]
 0. [刨根问底Objective-C Runtime（2）－ Object & Class & Meta Class][刨根问底Objective-C Runtime（2）－ Object & Class & Meta Class] by [Chun Tips][Chun Tips]
 0. [刨根问底Objective-C Runtime（3）－ 消息 和 Category][刨根问底Objective-C Runtime（3）－ 消息 和 Category] by [Chun Tips][Chun Tips]
@@ -70,7 +71,7 @@
 0. [Method Swizzling 和 AOP 实践][Method Swizzling 和 AOP 实践] by [Glow 技术团队博客][Glow 技术团队博客]
 
 ### Block
-0. [Blocks Programming Topics][Blocks Programming Topics] by [苹果官方][苹果官方]
+0. [Blocks Programming Topics][Blocks Programming Topics] by [iOS Developer Library][iOS Developer Library]
 0. [谈Objective-C Block的实现][谈Objective-C Block的实现]  by [唐巧][唐巧]
 0. [Objective-C中的Block][Objective-C中的Block] by [OneV's Den][OneV's Den]
 0. [Wrapping Objective-C Delegates with Blocks][Wrapping Objective-C Delegates with Blocks] by [Pivotal Labs][Pivotal Labs]
@@ -94,14 +95,14 @@
 0. [基础集合类][基础集合类] by [objc中国][objc中国]
 
 ## UIKit框架
-0. [App Programming Guide for iOS][App Programming Guide for iOS] by [苹果官方][苹果官方]
-0. [Collection View Programming Guide for iOS][Collection View Programming Guide for iOS] by [苹果官方][苹果官方]
+0. [UIKit Framework Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIKit_Framework/index.html#classes) by [iOS Developer Library][iOS Developer Library]
+0. [App Programming Guide for iOS][App Programming Guide for iOS] by [iOS Developer Library][iOS Developer Library]
 0. [代码手写UI，xib和StoryBoard间的博弈，以及Interface Builder的一些小技巧][代码手写UI，xib和StoryBoard间的博弈，以及Interface Builder的一些小技巧] by [OneV's Den][OneV's Den]
 
 ### UIView/UIViewController
-0. [View Programming Guide for iOS][View Programming Guide for iOS] by [苹果官方][苹果官方]
-0. [View Controller Programming Guide for iOS][View Controller Programming Guide for iOS] by [苹果官方][苹果官方]
-0. [View Controller Catalog for iOS][View Controller Catalog for iOS] by [苹果官方][苹果官方]
+0. [View Programming Guide for iOS][View Programming Guide for iOS] by [iOS Developer Library][iOS Developer Library]
+0. [View Controller Programming Guide for iOS][View Controller Programming Guide for iOS] by [iOS Developer Library][iOS Developer Library]
+0. [View Controller Catalog for iOS][View Controller Catalog for iOS] by [iOS Developer Library][iOS Developer Library]
 0. [更轻量的 View Controllers][更轻量的 View Controllers] by [objc中国][objc中国]
 0. [View Controller 容器][View Controller 容器] by [objc中国][objc中国]
 
@@ -109,15 +110,24 @@
 0. [UITextView编辑时插入自定义表情-简单的图文混编](http://tutuge.me/2015/03/07/UITextView%E7%BC%96%E8%BE%91%E6%97%B6%E6%8F%92%E5%85%A5%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A1%A8%E6%83%85-%E7%AE%80%E5%8D%95%E7%9A%84%E5%9B%BE%E6%96%87%E6%B7%B7%E7%BC%96/) by [土土哥的技术Blog][土土哥的技术Blog]
 
 ### UITableView/UITableViewController
-0. [Table View Programming Guide for iOS][Table View Programming Guide for iOS] by [苹果官方][苹果官方]
+0. [Table View Programming Guide for iOS][Table View Programming Guide for iOS] by [iOS Developer Library][iOS Developer Library]
 0. [整洁的 Table View 代码][整洁的 Table View 代码] by [objc中国][objc中国]
 
+### UICollection​View
+0. [Collection View Programming Guide for iOS][Collection View Programming Guide for iOS] by [iOS Developer Library][iOS Developer Library]
+0. [UICollectionView Class Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UICollectionView_class/index.html#//apple_ref/occ/cl/UICollectionView) by [iOS Developer Library][iOS Developer Library]
+0. [WWDC 2012 Session笔记——205 Introducing Collection Views](http://onevcat.com/2012/06/introducing-collection-views/) by [OneV's Den][OneV's Den]
+0. [UICollection​View](http://nshipster.com/uicollectionview/) by [Mattt Thompson][Mattt Thompson] | [中文翻译](http://nshipster.cn/uicollectionview/) by JJ Mao
+0. [自定义 Collection View 布局](http://objccn.io/issue-3-3/) by [objc中国][objc中国]
+0. [Beginning UICollectionView In iOS 6: Part 1/2](http://www.raywenderlich.com/22324/beginning-uicollectionview-in-ios-6-part-12) by [Ray Wenderlich][raywenderlich]
+
 ### UIScrollView
-0. [Scroll View Programming Guide for iOS][Scroll View Programming Guide for iOS] by [苹果官方][苹果官方]
+0. [Scroll View Programming Guide for iOS][Scroll View Programming Guide for iOS] by [iOS Developer Library][iOS Developer Library]
 0. [UIScrollView 实践经验][UIScrollView 实践经验] by [Glow 技术团队博客][Glow 技术团队博客]
+0. [理解 Scroll Views](http://objccn.io/issue-3-2/) by [objc中国][objc中国]
 
 ### AutoLayout
-0. [Auto Layout Guide][Auto Layout Guide] by [苹果官方][苹果官方]
+0. [Auto Layout Guide][Auto Layout Guide] by [iOS Developer Library][iOS Developer Library]
 0. [开始iOS7中自动布局的教程（一）][开始iOS7中自动布局的教程（一）] by [answer-huang][answer-huang]
 0. [WWDC 2012 Session笔记——202, 228, 232 AutoLayout（自动布局）入门][WWDC 2012 Session笔记——202, 228, 232 AutoLayout（自动布局）入门] by [OneV's Den][OneV's Den]
 0. [SizeClass和AutoLayout教程1][SizeClass和AutoLayout教程1] by [叶孤城][叶孤城]
@@ -127,17 +137,18 @@
 0. [Masonry介绍与使用实践（快速上手Autolayout）](http://adad184.com/2014/09/28/use-masonry-to-quick-solve-autolayout/) by [里脊串的开发随笔][里脊串的开发随笔]
 
 ## Core Animation
-0. [Core Animation Programming Guide][Core Animation Programming Guide] by [苹果官方][苹果官方]
+0. [Core Animation Programming Guide][Core Animation Programming Guide] by [iOS Developer Library][iOS Developer Library]
 0. [Core Animation Programming Guide 译] by 海水的味道
 0. [POP介绍与使用实践（快速上手动画）](http://adad184.com/2015/03/11/2015-03-11-intro-to-pop/) by [里脊串的开发随笔][里脊串的开发随笔]
 
 ## 编码规范
-0. [Coding Guidelines for Cocoa][Coding Guidelines for Cocoa] by [苹果官方][苹果官方]
+0. [Coding Guidelines for Cocoa][Coding Guidelines for Cocoa] by [iOS Developer Library][iOS Developer Library]
 0. [Zen and the Art of the Objective-C Craftsmanship][objc-zen-book]
+0. [The official raywenderlich.com Objective-C style guide](https://github.com/raywenderlich/objective-c-style-guide) by [Ray Wenderlich][raywenderlich]
 0. [写iOS SDK注意事项][写iOS SDK注意事项] by [唐巧][唐巧]
 
 ## 测试
-0. [Testing with Xcode][Testing with Xcode] by [苹果官方][苹果官方]
+0. [Testing with Xcode][Testing with Xcode] by [iOS Developer Library][iOS Developer Library]
 0. [行为驱动开发][行为驱动开发] by [objc中国][objc中国]
 0. [XCTest 测试实战][XCTest 测试实战] by [objc中国][objc中国]
 0. [依赖注入][依赖注入] by [objc中国][objc中国]
@@ -150,9 +161,9 @@
 0. [测试 View Controllers][测试 View Controllers] by [objc中国][objc中国]
 
 ## 并发编程
-0. [Concurrency Programming Guide][Concurrency Programming Guide] by [苹果官方][苹果官方]
-0. [Threading Programming Guide][Threading Programming Guide] by [苹果官方][苹果官方]
-0. [pthread手册][pthread手册] by [苹果官方][苹果官方]
+0. [Concurrency Programming Guide][Concurrency Programming Guide] by [iOS Developer Library][iOS Developer Library]
+0. [Threading Programming Guide][Threading Programming Guide] by [iOS Developer Library][iOS Developer Library]
+0. [pthread手册][pthread手册] by [iOS Developer Library][iOS Developer Library]
 0. [并发编程：API 及挑战][并发编程：API 及挑战] by [objc中国][objc中国]
 0. [常见的后台实践][常见的后台实践] by [objc中国][objc中国]
 0. [底层并发 API][底层并发 API] by [objc中国][objc中国]
@@ -163,8 +174,8 @@
 0. [走进Run Loop的世界 (二)：如何配置Run Loop Sources][走进Run Loop的世界 (二)：如何配置Run Loop Sources] by [Chun Tips][Chun Tips]
 
 ## 网络编程
-0. [Networking Concepts][Networking Concepts] by [苹果官方][苹果官方]
-0. [Networking Overview][Networking Overview] by [苹果官方][苹果官方]
+0. [Networking Concepts][Networking Concepts] by [iOS Developer Library][iOS Developer Library]
+0. [Networking Overview][Networking Overview] by [iOS Developer Library][iOS Developer Library]
 
 ### TCP
 0. [TCP 的那些事儿（上）](http://coolshell.cn/articles/11564.html) by [酷壳][酷壳]
@@ -179,10 +190,10 @@
 ## XML & JSON
 
 ## 地图 & 定位
-0. [Location and Maps Programming Guide][Location and Maps Programming Guide] by [苹果官方][苹果官方]
+0. [Location and Maps Programming Guide][Location and Maps Programming Guide] by [iOS Developer Library][iOS Developer Library]
 
 ## 国际化
-0. [Internationalization and Localization Guide][Internationalization and Localization Guide] by [苹果官方][苹果官方]
+0. [Internationalization and Localization Guide][Internationalization and Localization Guide] by [iOS Developer Library][iOS Developer Library]
 
 ## 二维码
 0. [在iOS中使用ZXing库][在iOS中使用ZXing库] by [唐巧][唐巧]
@@ -209,7 +220,7 @@
 0. [Effective-Objective-C-读书笔记-Item-4-如何正确定义常量](http://tutuge.me/2015/03/11/Effective-Objective-C-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-Item-4-%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E5%AE%9A%E4%B9%89%E5%B8%B8%E9%87%8F/) by [土土哥的技术Blog][土土哥的技术Blog]
 
 ## 交互设计
-0. [iOS Human Interface Guidelines][iOS Human Interface Guidelines] by [苹果官方][苹果官方]
+0. [iOS Human Interface Guidelines][iOS Human Interface Guidelines] by [iOS Developer Library][iOS Developer Library]
 
 ## 调试技巧
 
@@ -229,7 +240,7 @@
 ## 附A 站点列表
 站点地址 | 站点简介 |
 ------------ | ------------ |
-[iOS Developer Library ][苹果官方] | 苹果官方iOS开发资料库 |
+[iOS Developer Library ][iOS Developer Library] | iOS Developer LibraryiOS开发资料库 |
 [objc.io][objc.io] | ... |
 [objc中国][objc中国] | objc.io中文翻译 |
 [Ray Wenderlich][raywenderlich] | 英文教程网 |
@@ -257,7 +268,7 @@
 
 [酷壳]:http://coolshell.cn/ "酷壳"
 
-[苹果官方]: https://developer.apple.com/library/ios/navigation/
+[iOS Developer Library]: https://developer.apple.com/library/ios/navigation/
 [objc.io]: http://www.objc.io/
 [objc中国]: http://objccn.io/
 [Chun Tips]: http://chun.tips/
