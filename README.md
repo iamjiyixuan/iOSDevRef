@@ -169,7 +169,22 @@
 0. [底层并发 API][底层并发 API] by [objc中国][objc中国]
 0. [线程安全类的设计][线程安全类的设计] by [objc中国][objc中国]
 0. [测试并发程序][测试并发程序] by [objc中国][objc中国]
+
+### pthread
+
+### NSThread
+0. [NSThread Class Reference](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSThread_Class/) by [iOS Developer Library][iOS Developer Library]
+
+### GCD
 0. [使用GCD][使用GCD] by [唐巧][唐巧]
+
+### Operation Queue
+0. [NSOperation Class Reference](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/NSOperation_class/index.html) by [iOS Developer Library][iOS Developer Library]
+0. [NSOperationQueue](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/NSOperationQueue_class/index.html) by [iOS Developer Library][iOS Developer Library]
+0. [NSOperation](http://nshipster.com/nsoperation/) by [Mattt Thompson][Mattt Thompson] | [中文翻译](http://nshipster.cn/nsoperation/) by Henry Lee
+0. [How To Use NSOperations and NSOperationQueues](http://www.raywenderlich.com/19788/how-to-use-nsoperations-and-nsoperationqueues) by [Ray Wenderlich][raywenderlich]
+
+### Run Loop
 0. [走进Run Loop的世界 (一)：什么是Run Loop？][走进Run Loop的世界 (一)：什么是Run Loop？] by [Chun Tips][Chun Tips]
 0. [走进Run Loop的世界 (二)：如何配置Run Loop Sources][走进Run Loop的世界 (二)：如何配置Run Loop Sources] by [Chun Tips][Chun Tips]
 
@@ -186,8 +201,16 @@
 ### XMPP
 
 ## 内存管理
+0. [@autoreleasepool-内存的分配与释放](http://tutuge.me/2015/03/17/what-is-autoreleasepool/) by [土土哥的技术Blog][土土哥的技术Blog]
 
-## XML & JSON
+## XML
+0. [XML Tutorial for iOS: How To Choose The Best XML Parser for Your iPhone Project](http://www.raywenderlich.com/553/xml-tutorial-for-ios-how-to-choose-the-best-xml-parser-for-your-iphone-project) by [Ray Wenderlich][raywenderlich]
+
+### NSXMLParser（SAX-Based）
+0. [NSXMLParser Class Reference](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/Classes/NSXMLParser_Class/) by [iOS Developer Library][iOS Developer Library]
+
+### GDataXML（DOM-Based）
+0. [XML Tutorial for iOS: How To Read and Write XML Documents with GDataXML](http://www.raywenderlich.com/725/xml-tutorial-for-ios-how-to-read-and-write-xml-documents-with-gdataxml) by [Ray Wenderlich][raywenderlich]
 
 ## 地图 & 定位
 0. [Location and Maps Programming Guide][Location and Maps Programming Guide] by [iOS Developer Library][iOS Developer Library]
