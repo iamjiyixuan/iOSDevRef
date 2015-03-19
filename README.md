@@ -8,6 +8,7 @@
   * [AOP](#aop)
   * [Block](#block)
  * [Foundation框架](#foundation框架)
+  * [NSObject](#nsobject)
   * [字符串](#字符串)
   * [集合](#集合)
  * [UIKit框架](#uikit框架)
@@ -16,17 +17,25 @@
   * [UITableView/UITableViewController](#uitableview/uitableviewcontroller)
   * [UICollection​View](#uicollection​view)
   * [UIScrollView](#uiscrollview)
+  * [UIResponder](#uiresponder)
   * [AutoLayout](#autolayout)
  * [Core Animation](#core-animation)
  * [编码规范](#编码规范)
  * [测试](#测试)
  * [并发编程](#并发编程)
+  * [pthread](#pthread)
+  * [NSThread](#nsthread)
+  * [GCD](#gcd)
+  * [Operation Queue](#operation-queue)
+  * [Run Loop](#run-loop)
  * [网络编程](#网络编程)
   * [TCP](#tcp)
   * [HTTP](#http)
   * [XMPP](#xmpp)
  * [内存管理](#内存管理)
- * [XML & JSON](#xml-&-json)
+ * [XML](#xml)
+  * [NSXMLParser（SAX-Based）](#nsxmlparser（sax-based）)
+  * [GDataXML（DOM-Based）](#gdataxml（dom-based）)
  * [地图 & 定位](#地图-&-定位)
  * [国际化](#国际化)
  * [二维码](#二维码)
@@ -38,8 +47,13 @@
  * [交互设计](#交互设计)
  * [调试技巧](#调试技巧)
  * [工具](#工具)
+  * [Git](#git)
+  * [Ruby](#ruby)
   * [CocoaPods](#cocoapods)
   * [appledoc](#appledoc)
+ * [开源代码解读](#开源代码解读)
+  * [Mantle](#mantle)
+  * [SDWebImage](#sdwebimage)
  * [附A 站点列表](#附a-站点列表)
  * [附B 博客列表](#附b-博客列表)
 
@@ -66,6 +80,12 @@
 0. [Objective-C Runtime][Objective-C Runtime1] by [玉令天下的Blog][玉令天下的Blog]
 0. [Objective-C Runtime][Objective-C Runtime2] by [Glow 技术团队博客][Glow 技术团队博客]
 0. [如何自己动手实现 KVO][如何自己动手实现 KVO] by [Glow 技术团队博客][Glow 技术团队博客]
+0. [Objective-C Runtime 运行时之一：类与对象](http://southpeak.github.io/blog/2014/10/25/objective-c-runtime-yun-xing-shi-zhi-lei-yu-dui-xiang/) by [南峰子的技术博客][南峰子的技术博客]
+0. [Objective-C Runtime 运行时之二：成员变量与属性](http://southpeak.github.io/blog/2014/10/30/objective-c-runtime-yun-xing-shi-zhi-er-:cheng-yuan-bian-liang-yu-shu-xing/) by [南峰子的技术博客][南峰子的技术博客]
+0. [Objective-C Runtime 运行时之三：方法与消息](http://southpeak.github.io/blog/2014/11/03/objective-c-runtime-yun-xing-shi-zhi-san-:fang-fa-yu-xiao-xi-zhuan-fa/) by [南峰子的技术博客][南峰子的技术博客]
+0. [Objective-C Runtime 运行时之四：Method Swizzling](http://southpeak.github.io/blog/2014/11/06/objective-c-runtime-yun-xing-shi-zhi-si-:method-swizzling/) by [南峰子的技术博客][南峰子的技术博客]
+0. [Objective-C Runtime 运行时之五：协议与分类](http://southpeak.github.io/blog/2014/11/08/objective-c-runtime-yun-xing-shi-zhi-wu-:xie-yi-yu-fen-lei/) by [南峰子的技术博客][南峰子的技术博客]
+0. [Objective-C Runtime 运行时之六：拾遗](http://southpeak.github.io/blog/2014/11/09/objective-c-runtime-yun-xing-shi-zhi-liu-:shi-yi/) by [南峰子的技术博客][南峰子的技术博客]
 
 ### AOP
 0. [Method Swizzling 和 AOP 实践][Method Swizzling 和 AOP 实践] by [Glow 技术团队博客][Glow 技术团队博客]
@@ -83,6 +103,10 @@
 0. [消息传递机制][消息传递机制] by [objc中国][objc中国]
 0. [自定义 Formatters][自定义 Formatters] by [objc中国][objc中国]
 0. [语言标签][语言标签] by [objc中国][objc中国]
+
+### NSObject
+0. [NSObject之一](http://southpeak.github.io/blog/2015/01/31/nsobjectzhi-%5B%3F%5D/) by [南峰子的技术博客][南峰子的技术博客]
+0. [NSObject之二](http://southpeak.github.io/blog/2015/01/31/nsobjectzhi-er/) by [南峰子的技术博客][南峰子的技术博客]
 
 ### 字符串
 0. [NSString 与 Unicode][NSString 与 Unicode] by [objc中国][objc中国]
@@ -126,6 +150,9 @@
 0. [UIScrollView 实践经验][UIScrollView 实践经验] by [Glow 技术团队博客][Glow 技术团队博客]
 0. [理解 Scroll Views](http://objccn.io/issue-3-2/) by [objc中国][objc中国]
 
+### UIResponder
+0. [UIResponder](http://southpeak.github.io/blog/2015/03/07/uiresponder/) by [南峰子的技术博客][南峰子的技术博客]
+
 ### AutoLayout
 0. [Auto Layout Guide][Auto Layout Guide] by [iOS Developer Library][iOS Developer Library]
 0. [开始iOS7中自动布局的教程（一）][开始iOS7中自动布局的教程（一）] by [answer-huang][answer-huang]
@@ -146,6 +173,7 @@
 0. [Zen and the Art of the Objective-C Craftsmanship][objc-zen-book]
 0. [The official raywenderlich.com Objective-C style guide](https://github.com/raywenderlich/objective-c-style-guide) by [Ray Wenderlich][raywenderlich]
 0. [写iOS SDK注意事项][写iOS SDK注意事项] by [唐巧][唐巧]
+0. [iOS 开发中的争议（一）](http://blog.devtang.com/blog/2015/03/15/ios-dev-controversy-1/) by [唐巧][唐巧] | 注：本文探讨 `_property` vs `self.property` 
 
 ## 测试
 0. [Testing with Xcode][Testing with Xcode] by [iOS Developer Library][iOS Developer Library]
@@ -163,7 +191,6 @@
 ## 并发编程
 0. [Concurrency Programming Guide][Concurrency Programming Guide] by [iOS Developer Library][iOS Developer Library]
 0. [Threading Programming Guide][Threading Programming Guide] by [iOS Developer Library][iOS Developer Library]
-0. [pthread手册][pthread手册] by [iOS Developer Library][iOS Developer Library]
 0. [并发编程：API 及挑战][并发编程：API 及挑战] by [objc中国][objc中国]
 0. [常见的后台实践][常见的后台实践] by [objc中国][objc中国]
 0. [底层并发 API][底层并发 API] by [objc中国][objc中国]
@@ -171,6 +198,7 @@
 0. [测试并发程序][测试并发程序] by [objc中国][objc中国]
 
 ### pthread
+0. [pthread手册][pthread手册] by [iOS Developer Library][iOS Developer Library]
 
 ### NSThread
 0. [NSThread Class Reference](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSThread_Class/) by [iOS Developer Library][iOS Developer Library]
@@ -180,7 +208,7 @@
 
 ### Operation Queue
 0. [NSOperation Class Reference](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/NSOperation_class/index.html) by [iOS Developer Library][iOS Developer Library]
-0. [NSOperationQueue](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/NSOperationQueue_class/index.html) by [iOS Developer Library][iOS Developer Library]
+0. [NSOperationQueue Class Reference](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/NSOperationQueue_class/index.html) by [iOS Developer Library][iOS Developer Library]
 0. [NSOperation](http://nshipster.com/nsoperation/) by [Mattt Thompson][Mattt Thompson] | [中文翻译](http://nshipster.cn/nsoperation/) by Henry Lee
 0. [How To Use NSOperations and NSOperationQueues](http://www.raywenderlich.com/19788/how-to-use-nsoperations-and-nsoperationqueues) by [Ray Wenderlich][raywenderlich]
 
@@ -197,6 +225,7 @@
 0. [TCP 的那些事儿（下）](http://coolshell.cn/articles/11609.html) by [酷壳][酷壳]
 
 ### HTTP
+0. [HTTP协议简介](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/001386832653051fd44e44e4f9e4ed08f3e5a5ab550358d000) by [廖雪峰的官方网站][廖雪峰的官方网站]
 
 ### XMPP
 
@@ -249,6 +278,13 @@
 
 ## 工具
 
+### Git
+0. [Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000) by [廖雪峰的官方网站][廖雪峰的官方网站]
+
+### Ruby
+0. [Ruby程序设计语言官方网站_中文](https://www.ruby-lang.org/zh_cn/)
+0. [Ruby 教程](http://www.w3cschool.cc/ruby/ruby-tutorial.html) by [w3cschool][w3cschool]
+
 ### CocoaPods
 0. [CocoaPods][CocoaPodsByMatttThompson] by [Mattt Thompson][Mattt Thompson] | [中文翻译][CocoaPodsByMatttThompson译] by David Liu
 0. [CocoaPods安装和使用教程][CocoaPods安装和使用教程] by Code4App
@@ -259,6 +295,15 @@
 
 ### appledoc
 0. [使用Objective-C的文档生成工具:appledoc][使用Objective-C的文档生成工具:appledoc] by [唐巧][唐巧]
+
+## 开源代码解读
+
+### Mantle
+0. [工具篇：Mantle](http://southpeak.github.io/blog/2015/01/11/gong-ju-pian-:mantle/) by [南峰子的技术博客][南峰子的技术博客]
+0. [源码篇：Mantle](http://southpeak.github.io/blog/2015/01/11/yuan-ma-pian-:mantle/) by [南峰子的技术博客][南峰子的技术博客]
+
+### SDWebImage
+0. [源码篇：SDWebImage](http://southpeak.github.io/blog/2015/02/07/yuan-ma-pian-:sdwebimage/) by [南峰子的技术博客][南峰子的技术博客]
 
 ## 附A 站点列表
 站点地址 | 站点简介 |
@@ -286,10 +331,13 @@
 [Glow 技术团队博客][Glow 技术团队博客] | ... |
 [土土哥的技术Blog][土土哥的技术Blog] | ... |
 [里脊串的开发随笔][里脊串的开发随笔] | ... |
+[南峰子的技术博客][南峰子的技术博客] | ... |
 
 [----]: "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 
 [酷壳]:http://coolshell.cn/ "酷壳"
+[廖雪峰的官方网站]:http://www.liaoxuefeng.com/ "廖雪峰的官方网站"
+[w3cschool]:http://www.w3cschool.cc/ "w3cschool"
 
 [iOS Developer Library]: https://developer.apple.com/library/ios/navigation/
 [objc.io]: http://www.objc.io/
@@ -311,6 +359,7 @@
 [icyleaf]: http://icyleaf.com/ "icyleaf"
 [土土哥的技术Blog]:http://tutuge.me/ "土土哥的技术Blog"
 [里脊串的开发随笔]:http://adad184.com/ "里脊串的开发随笔"
+[南峰子的技术博客]:http://southpeak.github.io/ "南峰子的技术博客"
 
 [入门]: ""
 [Start Developing iOS Apps Today]:https://developer.apple.com/library/ios/referencelibrary/GettingStarted/RoadMapiOSCh/index.html
