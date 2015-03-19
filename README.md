@@ -196,6 +196,7 @@
 0. [底层并发 API][底层并发 API] by [objc中国][objc中国]
 0. [线程安全类的设计][线程安全类的设计] by [objc中国][objc中国]
 0. [测试并发程序][测试并发程序] by [objc中国][objc中国]
+0. [iOS并发编程笔记](http://www.starming.com/index.php?v=index&view=73) by [Starming星光社][Starming星光社]
 
 ### pthread
 0. [pthread手册][pthread手册] by [iOS Developer Library][iOS Developer Library]
@@ -319,9 +320,9 @@
 博客地址 | 博主简介 |
 ------------ | ------------ |
 [Mattt Thompson][Mattt Thompson] | AFNetworking作者。|
-[唐巧的技术博客][唐巧] | 唐巧，资深iOS开发者，InfoQ编辑，Blogger，目前在猿题库创业。|
-[OneV's Den][OneV's Den] | 王巍（喵神），iOS/Unity开发者，objc中国发起者。现居日本，就职于 LINE。|
-[叶孤城][叶孤城] | ... |
+[唐巧的技术博客][唐巧] | [@唐巧_boy](http://weibo.com/tangqiaoboy)，资深iOS开发者，InfoQ编辑，Blogger，目前在猿题库创业。|
+[OneV's Den][OneV's Den] | 王巍（喵神，[@onevcat](http://weibo.com/onevcat)），iOS/Unity开发者，`objc中国`发起者。现居日本，就职于 LINE。|
+[叶孤城][叶孤城] | [@叶孤城___](http://weibo.com/u/1438670852) |
 [唐韧_Ryan][唐韧_Ryan] | ... |
 [不会开机的男孩][不会开机的男孩] | ... |
 [玉令天下的Blog][玉令天下的Blog] | 杨萧玉，... |
@@ -332,6 +333,8 @@
 [土土哥的技术Blog][土土哥的技术Blog] | ... |
 [里脊串的开发随笔][里脊串的开发随笔] | ... |
 [南峰子的技术博客][南峰子的技术博客] | ... |
+[Starming星光社][Starming星光社] | 站长：[@戴铭](http://weibo.com/allstarming) |
+[Why's Blog][Why's Blog] | [@请叫我汪二](http://weibo.com/small1030light) |
 
 [----]: "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 
@@ -360,6 +363,8 @@
 [土土哥的技术Blog]:http://tutuge.me/ "土土哥的技术Blog"
 [里脊串的开发随笔]:http://adad184.com/ "里脊串的开发随笔"
 [南峰子的技术博客]:http://southpeak.github.io/ "南峰子的技术博客"
+[Starming星光社]:http://www.starming.com/ "Starming星光社"
+[Why's Blog]:http://blog.callmewhy.com/ "Why's Blog"
 
 [入门]: ""
 [Start Developing iOS Apps Today]:https://developer.apple.com/library/ios/referencelibrary/GettingStarted/RoadMapiOSCh/index.html
