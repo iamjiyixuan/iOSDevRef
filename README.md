@@ -2,6 +2,7 @@
 
 ## 目录
  * [前言](#前言)
+ * [教程](#教程)
  * [入门](#入门)
  * [Objective-C编程](#objective-c编程)
   * [Objective-C Runtime](#objective-c-runtime)
@@ -18,7 +19,8 @@
   * [UICollection​View](#uicollection​view)
   * [UIScrollView](#uiscrollview)
   * [UIResponder](#uiresponder)
-  * [AutoLayout](#autolayout)
+ * [AutoLayout](#autolayout)
+  * [Masonry](#masonry)
  * [Core Animation](#core-animation)
  * [编码规范](#编码规范)
  * [测试](#测试)
@@ -33,6 +35,7 @@
   * [HTTP](#http)
   * [XMPP](#xmpp)
  * [内存管理](#内存管理)
+  * [ARC](#arc)
  * [XML](#xml)
   * [NSXMLParser（SAX-Based）](#nsxmlparser（sax-based）)
   * [GDataXML（DOM-Based）](#gdataxml（dom-based）)
@@ -46,6 +49,7 @@
   * [Effective Objective-C](#effective-objective-c)
  * [交互设计](#交互设计)
  * [调试技巧](#调试技巧)
+  * [LLDB](#lldb)
  * [工具](#工具)
   * [Git](#git)
   * [Ruby](#ruby)
@@ -60,15 +64,32 @@
 ## 前言
 本文档整理iOS开发参考资料。本文档将不断更新维护 ~
 
+
+
+
+## 教程
+0. [iPhone Tutorials](http://www.raywenderlich.com/tutorials) by [Ray Wenderlich][raywenderlich]
+0. <del>[斯坦福大学公开课：iPad和iPhone应用开发(iOS5)](http://open.163.com/special/opencourse/ipadandiphoneapplication.html) by [网易公开课][网易公开课] | 免费视频教程，iOS 5已经过时，建议从iOS 7开始看。</del>
+0. [斯坦福大学公开课：iOS 7应用开发](http://open.163.com/special/opencourse/ios7.html) by [网易公开课][网易公开课] | 免费视频教程，重点推荐，由前苹果工程师主讲。
+0. [斯坦福大学公开课：iOS 8开发](http://open.163.com/special/opencourse/ios8.html) by [网易公开课][网易公开课] | 同上
+0. [iOS开发零基础入门教程](http://ios.itcast.cn/news/20130807/19132762093.shtml) by [传智播客][传智播客] | 免费视频教程
+0. [iOS开发进阶教程](http://ios.itcast.cn/news/20131224/1635052994.shtml) by [传智播客][传智播客] | 免费视频教程
+0. [iOS开发工程师职业学习线路图](http://edu.51cto.com/roadmap/view/id-7.html) by [51CTO学院][51CTO学院] | 收费视频教程
+
+
+
+
 ## 入门
-0. [Start Developing iOS Apps Today][Start Developing iOS Apps Today] by [iOS Developer Library][iOS Developer Library]
-0. [iOS Technology Overview][iOS Technology Overview] by [iOS Developer Library][iOS Developer Library]
+0. [Start Developing iOS Apps Today](https://developer.apple.com/library/ios/referencelibrary/GettingStarted/RoadMapiOSCh/index.html) by [iOS Developer Library][iOS Developer Library]
+0. [iOS Technology Overview](https://developer.apple.com/library/ios/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/Introduction/Introduction.html) by [iOS Developer Library][iOS Developer Library]
+
+
+
 
 ## Objective-C编程
-0. [Programming with Objective-C][Programming with Objective-C] by [iOS Developer Library][iOS Developer Library]
-0. [Object-Oriented Programming with Objective-C][Object-Oriented Programming with Objective-C] by [iOS Developer Library][iOS Developer Library]
-0. [Adopting Modern Objective-C][Adopting Modern Objective-C] by [iOS Developer Library][iOS Developer Library]
-0. [谈ObjC对象的两段构造模式][谈ObjC对象的两段构造模式] by [唐巧][唐巧]
+0. [Programming with Objective-C](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html) by [iOS Developer Library][iOS Developer Library]
+0. [Object-Oriented Programming with Objective-C](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/OOP_ObjC/Introduction/Introduction.html) by [iOS Developer Library][iOS Developer Library]
+0. [Adopting Modern Objective-C](https://developer.apple.com/library/ios/releasenotes/ObjectiveC/ModernizationObjC/AdoptingModernObjective-C/AdoptingModernObjective-C.html) by [iOS Developer Library][iOS Developer Library]
 0. [Objective-C对象模型及应用][Objective-C对象模型及应用] by [唐巧][唐巧]
 
 ### Objective-C Runtime
@@ -97,6 +118,9 @@
 0. [Wrapping Objective-C Delegates with Blocks][Wrapping Objective-C Delegates with Blocks] by [Pivotal Labs][Pivotal Labs]
 0. [黑幕背后的__block修饰符][黑幕背后的__block修饰符] by [Chun Tips][Chun Tips]
 
+
+
+
 ## Foundation框架
 0. [值对象][值对象] by [objc中国][objc中国]
 0. [KVC 和 KVO][KVC 和 KVO] by [objc中国][objc中国]
@@ -105,9 +129,13 @@
 0. [语言标签][语言标签] by [objc中国][objc中国]
 
 ### NSObject
-0. [NSObject之一](http://southpeak.github.io/blog/2015/01/31/nsobjectzhi-%5B%3F%5D/) by [南峰子的技术博客][南峰子的技术博客]
-0. [NSObject之二](http://southpeak.github.io/blog/2015/01/31/nsobjectzhi-er/) by [南峰子的技术博客][南峰子的技术博客]
-
+0. [NSObject Class Reference](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/index.html) by [iOS Developer Library][iOS Developer Library]
+0. [NSObject Protocol Reference](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/) by [iOS Developer Library][iOS Developer Library]
+0. [NSObject之一](http://southpeak.github.io/blog/2015/01/31/nsobjectzhi-%5B%3F%5D/) by [南峰子的技术博客][南峰子的技术博客] | 介绍`NSObject Class`
+0. [NSObject之二](http://southpeak.github.io/blog/2015/01/31/nsobjectzhi-er/) by [南峰子的技术博客][南峰子的技术博客] | 介绍`NSObject Protocol`
+0. [谈ObjC对象的两段构造模式](http://blog.devtang.com/blog/2013/01/13/two-stage-creation-on-cocoa/) by [唐巧][唐巧]
+0. [NSObject的load和initialize方法](http://www.molotang.com/articles/1929.html) by [三石·道][三石·道]
+ 
 ### 字符串
 0. [NSString 与 Unicode][NSString 与 Unicode] by [objc中国][objc中国]
 0. [玩转字符串][玩转字符串] by [objc中国][objc中国]
@@ -117,6 +145,9 @@
 
 ### 集合
 0. [基础集合类][基础集合类] by [objc中国][objc中国]
+
+
+
 
 ## UIKit框架
 0. [UIKit Framework Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIKit_Framework/index.html#classes) by [iOS Developer Library][iOS Developer Library]
@@ -153,7 +184,10 @@
 ### UIResponder
 0. [UIResponder](http://southpeak.github.io/blog/2015/03/07/uiresponder/) by [南峰子的技术博客][南峰子的技术博客]
 
-### AutoLayout
+
+
+
+## AutoLayout
 0. [Auto Layout Guide][Auto Layout Guide] by [iOS Developer Library][iOS Developer Library]
 0. [开始iOS7中自动布局的教程（一）][开始iOS7中自动布局的教程（一）] by [answer-huang][answer-huang]
 0. [WWDC 2012 Session笔记——202, 228, 232 AutoLayout（自动布局）入门][WWDC 2012 Session笔记——202, 228, 232 AutoLayout（自动布局）入门] by [OneV's Den][OneV's Den]
@@ -161,12 +195,20 @@
 0. [SizeClass和AutoLayout教程2][SizeClass和AutoLayout教程2] by [叶孤城][叶孤城]
 0. [SizeClass和AutoLayout教程3][SizeClass和AutoLayout教程3] by [叶孤城][叶孤城]
 0. [SizeClass和AutoLayout教程4][SizeClass和AutoLayout教程4] by [叶孤城][叶孤城]
+
+### Masonry
 0. [Masonry介绍与使用实践（快速上手Autolayout）](http://adad184.com/2014/09/28/use-masonry-to-quick-solve-autolayout/) by [里脊串的开发随笔][里脊串的开发随笔]
+
+
+
 
 ## Core Animation
 0. [Core Animation Programming Guide][Core Animation Programming Guide] by [iOS Developer Library][iOS Developer Library]
 0. [Core Animation Programming Guide 译] by 海水的味道
 0. [POP介绍与使用实践（快速上手动画）](http://adad184.com/2015/03/11/2015-03-11-intro-to-pop/) by [里脊串的开发随笔][里脊串的开发随笔]
+
+
+
 
 ## 编码规范
 0. [Coding Guidelines for Cocoa][Coding Guidelines for Cocoa] by [iOS Developer Library][iOS Developer Library]
@@ -174,6 +216,9 @@
 0. [The official raywenderlich.com Objective-C style guide](https://github.com/raywenderlich/objective-c-style-guide) by [Ray Wenderlich][raywenderlich]
 0. [写iOS SDK注意事项][写iOS SDK注意事项] by [唐巧][唐巧]
 0. [iOS 开发中的争议（一）](http://blog.devtang.com/blog/2015/03/15/ios-dev-controversy-1/) by [唐巧][唐巧] | 注：本文探讨 `_property` vs `self.property` 
+
+
+
 
 ## 测试
 0. [Testing with Xcode][Testing with Xcode] by [iOS Developer Library][iOS Developer Library]
@@ -187,6 +232,9 @@
 0. [TDD的iOS开发初步以及Kiwi使用入门][TDD的iOS开发初步以及Kiwi使用入门] by [OneV's Den][OneV's Den]
 0. [Kiwi 使用进阶 Mock, Stub, 参数捕获和异步测试][Kiwi 使用进阶 Mock, Stub, 参数捕获和异步测试] by [OneV's Den][OneV's Den]
 0. [测试 View Controllers][测试 View Controllers] by [objc中国][objc中国]
+
+
+
 
 ## 并发编程
 0. [Concurrency Programming Guide][Concurrency Programming Guide] by [iOS Developer Library][iOS Developer Library]
@@ -217,6 +265,9 @@
 0. [走进Run Loop的世界 (一)：什么是Run Loop？][走进Run Loop的世界 (一)：什么是Run Loop？] by [Chun Tips][Chun Tips]
 0. [走进Run Loop的世界 (二)：如何配置Run Loop Sources][走进Run Loop的世界 (二)：如何配置Run Loop Sources] by [Chun Tips][Chun Tips]
 
+
+
+
 ## 网络编程
 0. [Networking Concepts][Networking Concepts] by [iOS Developer Library][iOS Developer Library]
 0. [Networking Overview][Networking Overview] by [iOS Developer Library][iOS Developer Library]
@@ -230,8 +281,21 @@
 
 ### XMPP
 
+
+
+
 ## 内存管理
+0. [Memory Management Tutorial for iOS](http://www.raywenderlich.com/2657/memory-management-tutorial-for-ios) by [Ray Wenderlich][raywenderlich]
+0. [Instruments Tutorial for iOS: How To Debug Memory Leaks](http://www.raywenderlich.com/2696/instruments-tutorial-for-ios-how-to-debug-memory-leaks) by [Ray Wenderlich][raywenderlich]
+0. [Properties Tutorial for iOS](http://www.raywenderlich.com/2712/properties-tutorial-for-ios) by [Ray Wenderlich][raywenderlich]
 0. [@autoreleasepool-内存的分配与释放](http://tutuge.me/2015/03/17/what-is-autoreleasepool/) by [土土哥的技术Blog][土土哥的技术Blog]
+
+### ARC
+0. [Beginning ARC in iOS 5 Tutorial Part 1](http://www.raywenderlich.com/5677/beginning-arc-in-ios-5-part-1) by [Ray Wenderlich][raywenderlich]
+0. [Beginning ARC in iOS 5 Tutorial Part 2](http://www.raywenderlich.com/5773/beginning-arc-in-ios-5-tutorial-part-2) by [Ray Wenderlich][raywenderlich]
+
+
+
 
 ## XML
 0. [XML Tutorial for iOS: How To Choose The Best XML Parser for Your iPhone Project](http://www.raywenderlich.com/553/xml-tutorial-for-ios-how-to-choose-the-best-xml-parser-for-your-iphone-project) by [Ray Wenderlich][raywenderlich]
@@ -242,27 +306,48 @@
 ### GDataXML（DOM-Based）
 0. [XML Tutorial for iOS: How To Read and Write XML Documents with GDataXML](http://www.raywenderlich.com/725/xml-tutorial-for-ios-how-to-read-and-write-xml-documents-with-gdataxml) by [Ray Wenderlich][raywenderlich]
 
+
+
+
 ## 地图 & 定位
 0. [Location and Maps Programming Guide][Location and Maps Programming Guide] by [iOS Developer Library][iOS Developer Library]
+
+
+
 
 ## 国际化
 0. [Internationalization and Localization Guide][Internationalization and Localization Guide] by [iOS Developer Library][iOS Developer Library]
 
+
+
+
 ## 二维码
 0. [在iOS中使用ZXing库][在iOS中使用ZXing库] by [唐巧][唐巧]
+
+
+
 
 ## 字体
 0. [iOS 7支持的字体列表][iOS 7支持的字体列表] 
 0. [动态下载苹果提供的多种中文字体][动态下载苹果提供的多种中文字体] by [唐巧][唐巧]
+
+
+
 
 ## 苹果开发者账号
 0. [苹果开发者账号那些事儿（一）][苹果开发者账号那些事儿（一）] by [唐韧_Ryan][唐韧_Ryan]
 0. [苹果开发者账号那些事儿（二）][苹果开发者账号那些事儿（二）] by [唐韧_Ryan][唐韧_Ryan]
 0. [苹果开发者账号那些事儿（三）][苹果开发者账号那些事儿（三）] by [唐韧_Ryan][唐韧_Ryan]
 
+
+
+
 ## 经验之谈
 0. [iOS开发如何提高][iOS开发如何提高]  by [唐巧][唐巧]
 0. [iOS开发如何快速成长?][iOS开发如何快速成长?] by [叶孤城][叶孤城]
+
+
+
 
 ## 读书笔记
 
@@ -272,10 +357,19 @@
 0. [Effective-Objective-C-读书笔记-Item-3](http://tutuge.me/2015/02/14/Effective-Objective-C-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-Item-3/) by [土土哥的技术Blog][土土哥的技术Blog]
 0. [Effective-Objective-C-读书笔记-Item-4-如何正确定义常量](http://tutuge.me/2015/03/11/Effective-Objective-C-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-Item-4-%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E5%AE%9A%E4%B9%89%E5%B8%B8%E9%87%8F/) by [土土哥的技术Blog][土土哥的技术Blog]
 
+
+
+
 ## 交互设计
 0. [iOS Human Interface Guidelines][iOS Human Interface Guidelines] by [iOS Developer Library][iOS Developer Library]
 
 ## 调试技巧
+
+### LLDB
+0. [工具篇：LLDB调试器](http://southpeak.github.io/blog/2015/01/25/gong-ju-pian-:lldbdiao-shi-qi/) by [南峰子的技术博客][南峰子的技术博客]
+
+
+
 
 ## 工具
 
@@ -297,6 +391,9 @@
 ### appledoc
 0. [使用Objective-C的文档生成工具:appledoc][使用Objective-C的文档生成工具:appledoc] by [唐巧][唐巧]
 
+
+
+
 ## 开源代码解读
 
 ### Mantle
@@ -305,6 +402,9 @@
 
 ### SDWebImage
 0. [源码篇：SDWebImage](http://southpeak.github.io/blog/2015/02/07/yuan-ma-pian-:sdwebimage/) by [南峰子的技术博客][南峰子的技术博客]
+
+
+
 
 ## 附A 站点列表
 站点地址 | 站点简介 |
@@ -315,6 +415,9 @@
 [Ray Wenderlich][raywenderlich] | 英文教程网 |
 [NSHipster][NSHipster] | NSHipster is a journal of the overlooked bits in Objective-C, Swift, and Cocoa. Updated weekly. |
 [NSHipster中文版][NSHipster中文版] | NSHipster中文翻译 |
+
+
+
 
 ## 附B 博客列表
 博客地址 | 博主简介 |
@@ -335,12 +438,16 @@
 [南峰子的技术博客][南峰子的技术博客] | ... |
 [Starming星光社][Starming星光社] | 站长：[@戴铭](http://weibo.com/allstarming) |
 [Why's Blog][Why's Blog] | [@请叫我汪二](http://weibo.com/small1030light) |
+[三石·道][三石·道] | ... |
 
 [----]: "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 
 [酷壳]:http://coolshell.cn/ "酷壳"
 [廖雪峰的官方网站]:http://www.liaoxuefeng.com/ "廖雪峰的官方网站"
 [w3cschool]:http://www.w3cschool.cc/ "w3cschool"
+[51CTO学院]:http://edu.51cto.com/ "51CTO学院"
+[传智播客]:http://www.itcast.cn/ "传智播客"
+[网易公开课]:http://open.163.com/ "网易公开课"
 
 [iOS Developer Library]: https://developer.apple.com/library/ios/navigation/
 [objc.io]: http://www.objc.io/
@@ -365,15 +472,9 @@
 [南峰子的技术博客]:http://southpeak.github.io/ "南峰子的技术博客"
 [Starming星光社]:http://www.starming.com/ "Starming星光社"
 [Why's Blog]:http://blog.callmewhy.com/ "Why's Blog"
-
-[入门]: ""
-[Start Developing iOS Apps Today]:https://developer.apple.com/library/ios/referencelibrary/GettingStarted/RoadMapiOSCh/index.html
-[iOS Technology Overview]:https://developer.apple.com/library/ios/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/Introduction/Introduction.html
+[三石·道]:http://www.molotang.com/ "三石·道"
 
 [Objective-C编程]: ""
-[Programming with Objective-C]:https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html
-[Object-Oriented Programming with Objective-C]:https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/OOP_ObjC/Introduction/Introduction.html
-[Adopting Modern Objective-C]:https://developer.apple.com/library/ios/releasenotes/ObjectiveC/ModernizationObjC/AdoptingModernObjective-C/AdoptingModernObjective-C.html
 [Blocks Programming Topics]:https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/Blocks/Articles/00_Introduction.html
 [Objective-C Runtime Programming Guide]:https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Introduction/Introduction.html
 [刨根问底Objective-C Runtime（1）－ Self & Super]: http://chun.tips/blog/2014/11/05/bao-gen-wen-di-objective%5Bnil%5Dc-runtime%281%29%5Bnil%5D-self-and-super/
