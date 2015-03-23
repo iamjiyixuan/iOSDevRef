@@ -153,6 +153,7 @@
 0. [UIKit Framework Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIKit_Framework/index.html#classes) by [iOS Developer Library][iOS Developer Library]
 0. [App Programming Guide for iOS][App Programming Guide for iOS] by [iOS Developer Library][iOS Developer Library]
 0. [代码手写UI，xib和StoryBoard间的博弈，以及Interface Builder的一些小技巧][代码手写UI，xib和StoryBoard间的博弈，以及Interface Builder的一些小技巧] by [OneV's Den][OneV's Den]
+0. [iOS 开发中的争议（二）](http://blog.devtang.com/blog/2015/03/22/ios-dev-controversy-2/) by [唐巧][唐巧] | 在本文中，作者想讨论的是：对于UI界面的编写工作，到底应该用 xib/storyboard 完成，还是用手写代码来完成？
 
 ### UIView/UIViewController
 0. [View Programming Guide for iOS][View Programming Guide for iOS] by [iOS Developer Library][iOS Developer Library]
