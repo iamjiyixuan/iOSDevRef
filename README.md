@@ -149,6 +149,10 @@
 0. [字符串渲染][字符串渲染] by [objc中国][objc中国]
 
 ### 集合
+0. [NSArray Class Reference](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/) by [iOS Developer Library][iOS Developer Library]
+0. [NSMutableArray Class Reference](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSMutableArray_Class/index.html#//apple_ref/occ/cl/NSMutableArray) by [iOS Developer Library][iOS Developer Library]
+0. [NSDictionary Class Reference](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/Classes/NSDictionary_Class/index.html) by [iOS Developer Library][iOS Developer Library]
+0. [NSMutableDictionary Class Reference](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/Classes/NSMutableDictionary_Class/index.html#//apple_ref/occ/cl/NSMutableDictionary) by [iOS Developer Library][iOS Developer Library]
 0. [基础集合类][基础集合类] by [objc中国][objc中国]
 
 ### NSCache
