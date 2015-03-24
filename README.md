@@ -12,6 +12,8 @@
   * [NSObject](#nsobject)
   * [字符串](#字符串)
   * [集合](#集合)
+  * [NSCache](#nscache)
+  * [NSNotificationCenter](#nsnotificationcenter)
  * [UIKit框架](#uikit框架)
   * [UIView/UIViewController](#uiview/uiviewcontroller)
   * [UITextView](#uitextview)
@@ -31,9 +33,11 @@
   * [Operation Queue](#operation-queue)
   * [Run Loop](#run-loop)
  * [网络编程](#网络编程)
-  * [TCP](#tcp)
-  * [HTTP](#http)
-  * [XMPP](#xmpp)
+  * [TCP协议](#tcp协议)
+  * [HTTP协议](#http协议)
+  * [XMPP协议](#xmpp协议)
+  * [Bonjour](#bonjour)
+  * [NSURL](#nsurl)
  * [内存管理](#内存管理)
   * [ARC](#arc)
  * [XML](#xml)
@@ -58,6 +62,7 @@
  * [开源代码解读](#开源代码解读)
   * [Mantle](#mantle)
   * [SDWebImage](#sdwebimage)
+  * [MBProgressHUD](#mbprogresshud)
  * [附A 站点列表](#附a-站点列表)
  * [附B 博客列表](#附b-博客列表)
 
@@ -146,6 +151,14 @@
 ### 集合
 0. [基础集合类][基础集合类] by [objc中国][objc中国]
 
+### NSCache
+0. [NSCache Class Reference](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/NSCache_Class/) by [iOS Developer Library][iOS Developer Library]
+0. [NSCache](http://southpeak.github.io/blog/2015/02/11/nscache/) by [南峰子的技术博客][南峰子的技术博客]
+
+### NSNotificationCenter
+0. [NSNotificationCenter](http://southpeak.github.io/blog/2015/03/20/nsnotificationcenter/) by [南峰子的技术博客][南峰子的技术博客]
+0. [Notification与多线程](http://southpeak.github.io/blog/2015/03/14/nsnotificationyu-duo-xian-cheng/) by [南峰子的技术博客][南峰子的技术博客]
+
 
 
 
@@ -153,7 +166,7 @@
 0. [UIKit Framework Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIKit_Framework/index.html#classes) by [iOS Developer Library][iOS Developer Library]
 0. [App Programming Guide for iOS][App Programming Guide for iOS] by [iOS Developer Library][iOS Developer Library]
 0. [代码手写UI，xib和StoryBoard间的博弈，以及Interface Builder的一些小技巧][代码手写UI，xib和StoryBoard间的博弈，以及Interface Builder的一些小技巧] by [OneV's Den][OneV's Den]
-0. [iOS 开发中的争议（二）](http://blog.devtang.com/blog/2015/03/22/ios-dev-controversy-2/) by [唐巧][唐巧] | 在本文中，作者想讨论的是：对于UI界面的编写工作，到底应该用 xib/storyboard 完成，还是用手写代码来完成？
+0. [iOS 开发中的争议（二）](http://blog.devtang.com/blog/2015/03/22/ios-dev-controversy-2/) by [唐巧][唐巧] | 本文探讨 xib/storyboard vs 手写代码
 
 ### UIView/UIViewController
 0. [View Programming Guide for iOS][View Programming Guide for iOS] by [iOS Developer Library][iOS Developer Library]
@@ -273,14 +286,25 @@
 0. [Networking Concepts][Networking Concepts] by [iOS Developer Library][iOS Developer Library]
 0. [Networking Overview][Networking Overview] by [iOS Developer Library][iOS Developer Library]
 
-### TCP
+### TCP协议
 0. [TCP 的那些事儿（上）](http://coolshell.cn/articles/11564.html) by [酷壳][酷壳]
 0. [TCP 的那些事儿（下）](http://coolshell.cn/articles/11609.html) by [酷壳][酷壳]
 
-### HTTP
+### HTTP协议
 0. [HTTP协议简介](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/001386832653051fd44e44e4f9e4ed08f3e5a5ab550358d000) by [廖雪峰的官方网站][廖雪峰的官方网站]
 
-### XMPP
+### XMPP协议
+
+### Bonjour
+0. [Bonjour理论1：基本概念](http://southpeak.github.io/blog/2014/07/19/bonjourji-ben-li-lun/) by [南峰子的技术博客][南峰子的技术博客]
+0. [Bonjour理论2：域命名约定、API及其操作](http://southpeak.github.io/blog/2014/07/20/bonjourde-yu-ming-ming-yue-ding-,-apiji-qi-cao-zuo/) by [南峰子的技术博客][南峰子的技术博客]
+
+### NSURL
+0. [URL加载系统之一：基本结构](http://southpeak.github.io/blog/2014/07/11/urljia-zai-xi-tong-zhi-%5B%3F%5D-:ji-ben-jie-gou/) by [南峰子的技术博客][南峰子的技术博客]
+0. [URL加载系统之二：NSURLSession](http://southpeak.github.io/blog/2014/07/11/urljia-zai-xi-tong-zhi-er-:nsurlsession/) by [南峰子的技术博客][南峰子的技术博客]
+0. [URL加载系统之三：NSURLConnection](http://southpeak.github.io/blog/2014/07/15/urljia-zai-xi-tong-zhi-san-:nsurlconnection/) by [南峰子的技术博客][南峰子的技术博客]
+0. [URL加载系统之四：认证与TLS链验证](http://southpeak.github.io/blog/2014/07/16/urljia-zai-xi-tong-zhi-si-:ren-zheng-yu-tlslian-yan-zheng/) by [南峰子的技术博客][南峰子的技术博客]
+0. [URL加载系统之五：缓存、Cookies与协议](http://southpeak.github.io/blog/2014/07/20/urljia-zai-xi-tong-zhi-wu-:huan-cun-,-cookiesyu-xie-yi/) by [南峰子的技术博客][南峰子的技术博客]
 
 
 
@@ -357,6 +381,7 @@
 0. [Effective-Objective-C-读书笔记-Item-2](http://tutuge.me/2015/02/06/Effective-Objective-C-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-Item-2/) by [土土哥的技术Blog][土土哥的技术Blog]
 0. [Effective-Objective-C-读书笔记-Item-3](http://tutuge.me/2015/02/14/Effective-Objective-C-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-Item-3/) by [土土哥的技术Blog][土土哥的技术Blog]
 0. [Effective-Objective-C-读书笔记-Item-4-如何正确定义常量](http://tutuge.me/2015/03/11/Effective-Objective-C-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-Item-4-%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E5%AE%9A%E4%B9%89%E5%B8%B8%E9%87%8F/) by [土土哥的技术Blog][土土哥的技术Blog]
+0. [Enum-枚举的正确使用-Effective-Objective-C-读书笔记-Item-5 ](http://tutuge.me/2015/03/21/effective-objective-c-5-enum/) by [土土哥的技术Blog][土土哥的技术Blog]
 
 
 
@@ -404,6 +429,8 @@
 ### SDWebImage
 0. [源码篇：SDWebImage](http://southpeak.github.io/blog/2015/02/07/yuan-ma-pian-:sdwebimage/) by [南峰子的技术博客][南峰子的技术博客]
 
+### MBProgressHUD
+0. [源码篇：MBProgressHUD](http://southpeak.github.io/blog/2015/03/24/yuan-ma-pian-:mbprogresshud/) by [南峰子的技术博客][南峰子的技术博客]
 
 
 
