@@ -23,6 +23,7 @@
   * [UIResponder](#uiresponder)
  * [AutoLayout](#autolayout)
   * [Masonry](#masonry)
+ * [Quartz 2D](#quartz-2d)
  * [Core Animation](#core-animation)
  * [编码规范](#编码规范)
  * [测试](#测试)
@@ -59,7 +60,7 @@
   * [Ruby](#ruby)
   * [CocoaPods](#cocoapods)
   * [appledoc](#appledoc)
- * [开源代码解读](#开源代码解读)
+ * [源码解析](#源码解析)
   * [Mantle](#mantle)
   * [SDWebImage](#sdwebimage)
   * [MBProgressHUD](#mbprogresshud)
@@ -216,6 +217,26 @@
 
 ### Masonry
 0. [Masonry介绍与使用实践（快速上手Autolayout）](http://adad184.com/2014/09/28/use-masonry-to-quick-solve-autolayout/) by [里脊串的开发随笔][里脊串的开发随笔]
+
+
+
+
+## Quartz 2D
+0. [Quartz 2D Programming Guide](https://developer.apple.com/library/ios/documentation/GraphicsImaging/Conceptual/drawingwithquartz2d/dq_overview/dq_overview.html) by [iOS Developer Library][iOS Developer Library]
+0. [Quartz 2D编程指南之一：概览](http://southpeak.github.io/blog/2014/11/10/quartz-2dbian-cheng-zhi-nan-zhi-%5B%3F%5D-:gai-lan/) by [南峰子的技术博客][南峰子的技术博客]
+0. [Quartz 2D编程指南之二：图形上下文(Graphics Contexts)](http://southpeak.github.io/blog/2014/11/11/quartz-2dbian-cheng-zhi-nan-zhi-er-:tu-xing-shang-xia-wen-graphics-contexts/) by [南峰子的技术博客][南峰子的技术博客]
+0. [Quartz 2D编程指南之三：路径(Path)](http://southpeak.github.io/blog/2014/11/16/quartz-2dbian-cheng-zhi-nan-zhi-san-:lu-jing-path/) by [南峰子的技术博客][南峰子的技术博客]
+0. [Quartz 2D编程指南之四：颜色与颜色空间](http://southpeak.github.io/blog/2014/12/01/quartz-2dbian-cheng-zhi-nan-zhi-si-:yan-se-yu-yan-se-kong-jian/) by [南峰子的技术博客][南峰子的技术博客]
+0. [Quartz 2D编程指南之五：变换](http://southpeak.github.io/blog/2014/12/02/quartz-2dbian-cheng-zhi-nan-zhi-wu-:bian-huan/) by [南峰子的技术博客][南峰子的技术博客]
+0. [Quartz 2D编程指南之六：模式(Pattern)](http://southpeak.github.io/blog/2014/12/05/quartz-2dbian-cheng-zhi-nan-zhi-liu-:mo-shi-pattern/) by [南峰子的技术博客][南峰子的技术博客]
+0. [Quartz 2D编程指南之七：阴影](http://southpeak.github.io/blog/2014/12/05/quartz-2dbian-cheng-zhi-nan-zhi-qi-:yin-ying/) by [南峰子的技术博客][南峰子的技术博客]
+0. [Quartz 2D编程指南之八：渐变](http://southpeak.github.io/blog/2014/12/10/quartz-2dbian-cheng-zhi-nan-zhi-ba-:jian-bian/) by [南峰子的技术博客][南峰子的技术博客]
+0. [Quartz 2D编程指南之九：透明层](http://southpeak.github.io/blog/2014/12/10/quartz-2dbian-cheng-zhi-nan-zhi-jiu-:tou-ming-ceng/) by [南峰子的技术博客][南峰子的技术博客]
+0. [Quartz 2D编程指南之十：Quartz 2D中的数据管理](http://southpeak.github.io/blog/2014/12/11/quartz-2dbian-cheng-zhi-nan-zhi-shi-:quartz-2dzhong-de-shu-ju-guan-li/) by [南峰子的技术博客][南峰子的技术博客]
+0. [Quartz 2D编程指南之十一：位图与图像遮罩](http://southpeak.github.io/blog/2015/01/05/quartz-2dbian-cheng-zhi-nan-zhi-shi-%5B%3F%5D-:wei-tu-yu-tu-xiang-zhe-zhao/) by [南峰子的技术博客][南峰子的技术博客]
+0. [Quartz 2D编程指南之十二：Core Graphics层绘制](http://southpeak.github.io/blog/2015/01/08/quartz-2dbian-cheng-zhi-nan-zhi-shi-er-:core-graphicsceng-hui-zhi/) by [南峰子的技术博客][南峰子的技术博客]
+0. [Quartz 2D编程指南之十三：PDF文档的创建、显示及转换](http://southpeak.github.io/blog/2015/01/08/quartz-2dbian-cheng-zhi-nan-zhi-shi-san-:pdfwen-dang-de-chuang-jian-,-xian-shi-ji-zhuan-huan/) by [南峰子的技术博客][南峰子的技术博客]
+0. [绘制像素到屏幕上](http://objccn.io/issue-3-1/) by [objc中国][objc中国]
 
 
 
@@ -424,7 +445,7 @@
 
 
 
-## 开源代码解读
+## 源码解析
 
 ### Mantle
 0. [工具篇：Mantle](http://southpeak.github.io/blog/2015/01/11/gong-ju-pian-:mantle/) by [南峰子的技术博客][南峰子的技术博客]
