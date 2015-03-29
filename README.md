@@ -21,10 +21,12 @@
   * [UICollection​View](#uicollection​view)
   * [UIScrollView](#uiscrollview)
   * [UIResponder](#uiresponder)
+  * [UIWebView](#uiwebview)
  * [AutoLayout](#autolayout)
   * [Masonry](#masonry)
  * [Quartz 2D](#quartz-2d)
  * [Core Animation](#core-animation)
+ * [Audio/Video](#audio/video)
  * [编码规范](#编码规范)
  * [测试](#测试)
  * [并发编程](#并发编程)
@@ -49,6 +51,7 @@
  * [二维码](#二维码)
  * [字体](#字体)
  * [苹果开发者账号](#苹果开发者账号)
+ * [跨平台](#跨平台)
  * [经验之谈](#经验之谈)
  * [读书笔记](#读书笔记)
   * [Effective Objective-C](#effective-objective-c)
@@ -143,6 +146,8 @@
 0. [NSObject的load和initialize方法](http://www.molotang.com/articles/1929.html) by [三石·道][三石·道]
  
 ### 字符串
+0. [NSString Class Reference](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/) by [iOS Developer Library][iOS Developer Library]
+0. [NSMutableString Class Reference](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSMutableString_Class/index.html#//apple_ref/occ/cl/NSMutableString) by [iOS Developer Library][iOS Developer Library]
 0. [NSString 与 Unicode][NSString 与 Unicode] by [objc中国][objc中国]
 0. [玩转字符串][玩转字符串] by [objc中国][objc中国]
 0. [字符串本地化][字符串本地化] by [objc中国][objc中国]
@@ -203,6 +208,8 @@
 ### UIResponder
 0. [UIResponder](http://southpeak.github.io/blog/2015/03/07/uiresponder/) by [南峰子的技术博客][南峰子的技术博客]
 
+### UIWebView
+0. [UIWebView Class Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIWebView_Class/) by [iOS Developer Library][iOS Developer Library]
 
 
 
@@ -249,6 +256,11 @@
 
 
 
+## Audio/Video
+0. [IOS、安卓IM语音聊天开发初探部分心得——本地音频处理篇（上）](http://cvito.net/index.php/archives/854) by [雪印笔记](http://cvito.net/)
+0. [IOS、安卓IM语音聊天开发初探部分心得——本地音频处理篇（下）](http://cvito.net/index.php/archives/869) by [雪印笔记](http://cvito.net/)
+
+
 ## 编码规范
 0. [Coding Guidelines for Cocoa][Coding Guidelines for Cocoa] by [iOS Developer Library][iOS Developer Library]
 0. [Zen and the Art of the Objective-C Craftsmanship][objc-zen-book]
@@ -271,6 +283,7 @@
 0. [TDD的iOS开发初步以及Kiwi使用入门][TDD的iOS开发初步以及Kiwi使用入门] by [OneV's Den][OneV's Den]
 0. [Kiwi 使用进阶 Mock, Stub, 参数捕获和异步测试][Kiwi 使用进阶 Mock, Stub, 参数捕获和异步测试] by [OneV's Den][OneV's Den]
 0. [测试 View Controllers][测试 View Controllers] by [objc中国][objc中国]
+0. [使用树莓派搭建低成本，便携，多用户的弱网模拟器：高效测试手机App在弱网下的可用性 ](http://hugozhu.myalert.info/2015/03/28/59-use-raspberrypi-to-build-an-augmented-traffic-control-system.html) by [Hugo Zhu](http://hugozhu.myalert.info/)
 
 
 
@@ -388,6 +401,12 @@
 0. [苹果开发者账号那些事儿（一）][苹果开发者账号那些事儿（一）] by [唐韧_Ryan][唐韧_Ryan]
 0. [苹果开发者账号那些事儿（二）][苹果开发者账号那些事儿（二）] by [唐韧_Ryan][唐韧_Ryan]
 0. [苹果开发者账号那些事儿（三）][苹果开发者账号那些事儿（三）] by [唐韧_Ryan][唐韧_Ryan]
+
+
+
+## 跨平台
+0. [跨平台开发时代的 (再次) 到来？](http://onevcat.com/2015/03/cross-platform/) by [OneV's Den][OneV's Den]
+0. [谈谈 React Native](http://blog.devtang.com/blog/2015/02/01/talk-about-react-native/) by [唐巧][唐巧]
 
 
 
