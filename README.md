@@ -27,7 +27,7 @@
  * [Quartz 2D](#quartz-2d)
  * [Core Animation](#core-animation)
  * [Audio/Video](#audio/video)
- * [编码规范](#编码规范)
+ * [编码规范/最佳实践](#编码规范/最佳实践)
  * [测试](#测试)
  * [并发编程](#并发编程)
   * [pthread](#pthread)
@@ -67,6 +67,7 @@
   * [Mantle](#mantle)
   * [SDWebImage](#sdwebimage)
   * [MBProgressHUD](#mbprogresshud)
+ * [产品调研](#产品调研)
  * [附A 站点列表](#附a-站点列表)
  * [附B 博客列表](#附b-博客列表)
 
@@ -116,6 +117,7 @@
 0. [Objective-C Runtime 运行时之四：Method Swizzling](http://southpeak.github.io/blog/2014/11/06/objective-c-runtime-yun-xing-shi-zhi-si-:method-swizzling/) by [南峰子的技术博客][南峰子的技术博客]
 0. [Objective-C Runtime 运行时之五：协议与分类](http://southpeak.github.io/blog/2014/11/08/objective-c-runtime-yun-xing-shi-zhi-wu-:xie-yi-yu-fen-lei/) by [南峰子的技术博客][南峰子的技术博客]
 0. [Objective-C Runtime 运行时之六：拾遗](http://southpeak.github.io/blog/2014/11/09/objective-c-runtime-yun-xing-shi-zhi-liu-:shi-yi/) by [南峰子的技术博客][南峰子的技术博客]
+0. [Objc Runtime](https://github.com/ming1016/study/wiki/Objc-Runtime) by [戴铭](https://github.com/ming1016)
 
 ### AOP
 0. [Method Swizzling 和 AOP 实践][Method Swizzling 和 AOP 实践] by [Glow 技术团队博客][Glow 技术团队博客]
@@ -261,12 +263,15 @@
 0. [IOS、安卓IM语音聊天开发初探部分心得——本地音频处理篇（下）](http://cvito.net/index.php/archives/869) by [雪印笔记](http://cvito.net/)
 
 
-## 编码规范
+
+
+## 编码规范/最佳实践
 0. [Coding Guidelines for Cocoa][Coding Guidelines for Cocoa] by [iOS Developer Library][iOS Developer Library]
 0. [Zen and the Art of the Objective-C Craftsmanship][objc-zen-book]
 0. [The official raywenderlich.com Objective-C style guide](https://github.com/raywenderlich/objective-c-style-guide) by [Ray Wenderlich][raywenderlich]
 0. [写iOS SDK注意事项][写iOS SDK注意事项] by [唐巧][唐巧]
 0. [iOS 开发中的争议（一）](http://blog.devtang.com/blog/2015/03/15/ios-dev-controversy-1/) by [唐巧][唐巧] | 注：本文探讨 `_property` vs `self.property` 
+0. [iOS Good Practices](https://github.com/futurice/ios-good-practices) by [futurice](https://github.com/futurice) | [中文翻译](http://www.jianshu.com/p/b0bf2368fb95) by [linxiangyu](http://www.jianshu.com/users/B7jBJx)
 
 
 
@@ -433,6 +438,9 @@
 ## 交互设计
 0. [iOS Human Interface Guidelines][iOS Human Interface Guidelines] by [iOS Developer Library][iOS Developer Library]
 
+
+
+
 ## 调试技巧
 
 ### LLDB
@@ -475,6 +483,12 @@
 
 ### MBProgressHUD
 0. [源码篇：MBProgressHUD](http://southpeak.github.io/blog/2015/03/24/yuan-ma-pian-:mbprogresshud/) by [南峰子的技术博客][南峰子的技术博客]
+
+
+
+
+## 产品调研
+0. [一些知名App用到的第三方库汇总](http://www.jianshu.com/p/c5b0eb58b878) by [Robert_Chen](http://www.jianshu.com/users/0749708fa9a0)
 
 
 
