@@ -311,7 +311,9 @@
 
 ### GCD
 0. [使用GCD][使用GCD] by [唐巧][唐巧]
-
+0. [GCD使用经验与技巧浅谈](http://tutuge.me/2015/04/03/something-about-gcd/) by [土土哥的技术Blog][土土哥的技术Blog]
+0. [为GCD队列绑定NSObject类型上下文数据-利用__bridge_retained(transfer)转移内存管理权](http://tutuge.me/2015/03/29/bind-data-to-gcd-queue/) by [土土哥的技术Blog][土土哥的技术Blog]
+ 
 ### Operation Queue
 0. [NSOperation Class Reference](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/NSOperation_class/index.html) by [iOS Developer Library][iOS Developer Library]
 0. [NSOperationQueue Class Reference](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/NSOperationQueue_class/index.html) by [iOS Developer Library][iOS Developer Library]
@@ -337,6 +339,7 @@
 0. [HTTP协议简介](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/001386832653051fd44e44e4f9e4ed08f3e5a5ab550358d000) by [廖雪峰的官方网站][廖雪峰的官方网站]
 
 ### XMPP协议
+0. [The XMPP Standards Foundation](http://xmpp.org/)
 
 ### Bonjour
 0. [Bonjour理论1：基本概念](http://southpeak.github.io/blog/2014/07/19/bonjourji-ben-li-lun/) by [南峰子的技术博客][南峰子的技术博客]
@@ -490,6 +493,9 @@
 ## 产品调研
 0. [一些知名App用到的第三方库汇总](http://www.jianshu.com/p/c5b0eb58b878) by [Robert_Chen](http://www.jianshu.com/users/0749708fa9a0)
 
+### IM
+0. [移动 IM 学习笔记](https://ruby-china.org/topics/22530) by [Ruby China](https://ruby-china.org/)
+0. [详解Zoosk千万用户实时通信背后的开源技术](http://www.csdn.net/article/2012-09-10/2809790-zoosk-the-engineering-behind-real-time) by csdn
 
 
 ## 附A 站点列表
