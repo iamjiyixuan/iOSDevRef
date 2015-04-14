@@ -59,7 +59,7 @@
  * [调试技巧](#调试技巧)
   * [LLDB](#lldb)
  * [工具](#工具)
-  * [Git](#git)
+  * [Git/GitHub](#git/github)
   * [Ruby](#ruby)
   * [CocoaPods](#cocoapods)
   * [appledoc](#appledoc)
@@ -67,7 +67,8 @@
   * [Mantle](#mantle)
   * [SDWebImage](#sdwebimage)
   * [MBProgressHUD](#mbprogresshud)
- * [产品调研](#产品调研)
+ * [产品](#产品)
+  * [IM](#im)
  * [附A 站点列表](#附a-站点列表)
  * [附B 博客列表](#附b-博客列表)
 
@@ -454,8 +455,9 @@
 
 ## 工具
 
-### Git
+### Git/GitHub
 0. [Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000) by [廖雪峰的官方网站][廖雪峰的官方网站]
+0. [GitHub Top 100 简介](https://github.com/Aufree/trip-to-iOS/blob/master/Top-100.md) by [@李锦发](http://weibo.com/jinfali)
 
 ### Ruby
 0. [Ruby程序设计语言官方网站_中文](https://www.ruby-lang.org/zh_cn/)
@@ -490,12 +492,15 @@
 
 
 
-## 产品调研
+## 产品
 0. [一些知名App用到的第三方库汇总](http://www.jianshu.com/p/c5b0eb58b878) by [Robert_Chen](http://www.jianshu.com/users/0749708fa9a0)
+0. [产品经理们的那些奇技淫巧](https://qdan.me/list/VSeBskLvt9x9FzFW?utm_source=share&utm_medium=web&utm_term=weibo&utm_campaign=qdan) by [轻单](https://qdan.me/?from=logo)
 
 ### IM
 0. [移动 IM 学习笔记](https://ruby-china.org/topics/22530) by [Ruby China](https://ruby-china.org/)
 0. [详解Zoosk千万用户实时通信背后的开源技术](http://www.csdn.net/article/2012-09-10/2809790-zoosk-the-engineering-behind-real-time) by csdn
+
+
 
 
 ## 附A 站点列表
