@@ -310,11 +310,6 @@
 ### NSThread
 0. [NSThread Class Reference](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSThread_Class/) by [iOS Developer Library][iOS Developer Library]
 
-### GCD
-0. [使用GCD][使用GCD] by [唐巧][唐巧]
-0. [GCD使用经验与技巧浅谈](http://tutuge.me/2015/04/03/something-about-gcd/) by [土土哥的技术Blog][土土哥的技术Blog]
-0. [为GCD队列绑定NSObject类型上下文数据-利用__bridge_retained(transfer)转移内存管理权](http://tutuge.me/2015/03/29/bind-data-to-gcd-queue/) by [土土哥的技术Blog][土土哥的技术Blog]
- 
 ### Operation Queue
 0. [NSOperation Class Reference](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/NSOperation_class/index.html) by [iOS Developer Library][iOS Developer Library]
 0. [NSOperationQueue Class Reference](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/NSOperationQueue_class/index.html) by [iOS Developer Library][iOS Developer Library]
@@ -325,9 +320,15 @@
 0. [走进Run Loop的世界 (一)：什么是Run Loop？][走进Run Loop的世界 (一)：什么是Run Loop？] by [Chun Tips][Chun Tips]
 0. [走进Run Loop的世界 (二)：如何配置Run Loop Sources][走进Run Loop的世界 (二)：如何配置Run Loop Sources] by [Chun Tips][Chun Tips]
 
-
-
-
+### GCD
+0. [Grand Central Dispatch (GCD) Reference](https://developer.apple.com/library/prerelease/mac/documentation/Performance/Reference/GCD_libdispatch_Ref/index.html) by [iOS Developer Library][iOS Developer Library]
+0. [使用GCD][使用GCD] by [唐巧][唐巧]
+0. [GCD使用经验与技巧浅谈](http://tutuge.me/2015/04/03/something-about-gcd/) by [土土哥的技术Blog][土土哥的技术Blog]
+0. [为GCD队列绑定NSObject类型上下文数据-利用__bridge_retained(transfer)转移内存管理权](http://tutuge.me/2015/03/29/bind-data-to-gcd-queue/) by [土土哥的技术Blog][土土哥的技术Blog]
+ 
+ 
+ 
+ 
 ## 网络编程
 0. [Networking Concepts][Networking Concepts] by [iOS Developer Library][iOS Developer Library]
 0. [Networking Overview][Networking Overview] by [iOS Developer Library][iOS Developer Library]
