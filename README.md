@@ -291,7 +291,9 @@
 0. [测试 View Controllers][测试 View Controllers] by [objc中国][objc中国]
 0. [使用树莓派搭建低成本，便携，多用户的弱网模拟器：高效测试手机App在弱网下的可用性 ](http://hugozhu.myalert.info/2015/03/28/59-use-raspberrypi-to-build-an-augmented-traffic-control-system.html) by [Hugo Zhu](http://hugozhu.myalert.info/)
 
-
+### XcodeCoverage
+0. [XcodeCoverage](https://github.com/jonreid/XcodeCoverage)
+0. [XcodeCoverage查看iOS应用的代码覆盖率](http://blog.csdn.net/dongyu0729/article/details/38655959)
 
 
 ## 并发编程
