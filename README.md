@@ -291,8 +291,12 @@
 0. [测试 View Controllers][测试 View Controllers] by [objc中国][objc中国]
 0. [使用树莓派搭建低成本，便携，多用户的弱网模拟器：高效测试手机App在弱网下的可用性 ](http://hugozhu.myalert.info/2015/03/28/59-use-raspberrypi-to-build-an-augmented-traffic-control-system.html) by [Hugo Zhu](http://hugozhu.myalert.info/)
 
+### gcov/lcov
+0. [C/C++代码覆盖工具gcov与lcov入门](http://magustest.com/blog/whiteboxtesting/using-gcov-lcov/) by [进化的测试](http://magustest.com/blog/)
+
 ### XcodeCoverage
 0. [XcodeCoverage](https://github.com/jonreid/XcodeCoverage)
+0. [How to Measure Code Coverage in Xcode](http://qualitycoding.org/xcode-code-coverage/) by [Jon Reid](http://qualitycoding.org/) | Jon Reid是XcodeCoverage的作者。
 0. [XcodeCoverage查看iOS应用的代码覆盖率](http://blog.csdn.net/dongyu0729/article/details/38655959)
 
 
