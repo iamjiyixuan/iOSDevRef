@@ -548,14 +548,14 @@
 ## 附B iOS圈各路大神
 博主 | 博客 / Github | 主要作品 |
 ---- | ---- | ---- | 
-唐巧（[@唐巧_boy](http://weibo.com/tangqiaoboy)）|  [唐巧的技术博客](http://blog.devtang.com/) / [https://github.com/tangqiaoboy](https://github.com/tangqiaoboy) | <li>[《iOS开发进阶》](http://book.douban.com/subject/26287173/)</li> |
-王巍（[@onevcat](http://weibo.com/onevcat)）| [OneV's Den](http://onevcat.com/#blog) / [https://github.com/onevcat](https://github.com/onevcat) | <li>[VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode)</li> |
-李明杰（[@M了个J](http://weibo.com/exceptions)） | [M了个J](http://www.cnblogs.com/mjios/) / [https://github.com/CoderMJLee](https://github.com/CoderMJLee) | <li>[MJRefresh](https://github.com/CoderMJLee/MJRefresh)</li> <li>[MJExtension](https://github.com/CoderMJLee/MJExtension)</li> |
+唐巧（[@唐巧_boy](http://weibo.com/tangqiaoboy)）|  [唐巧的技术博客](http://blog.devtang.com/) / [https://github.com/tangqiaoboy](https://github.com/tangqiaoboy) | [《iOS开发进阶》](http://book.douban.com/subject/26287173/) |
+王巍（[@onevcat](http://weibo.com/onevcat)）| [OneV's Den](http://onevcat.com/#blog) / [https://github.com/onevcat](https://github.com/onevcat) | [VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode) |
+李明杰（[@M了个J](http://weibo.com/exceptions)） | [M了个J](http://www.cnblogs.com/mjios/) / [https://github.com/CoderMJLee](https://github.com/CoderMJLee) | [MJRefresh](https://github.com/CoderMJLee/MJRefresh) / [MJExtension](https://github.com/CoderMJLee/MJExtension) |
 [@南峰子_老驴](http://weibo.com/touristdiary) | [南峰子的技术博客](http://southpeak.github.io/) / [https://github.com/southpeak](https://github.com/southpeak) | ... |
 [@请叫我汪二](http://weibo.com/small1030light) | [Why's Blog](http://blog.callmewhy.com/) / [https://github.com/callmewhy](https://github.com/callmewhy) |
 [@叶孤城___](http://weibo.com/u/1438670852)| [叶孤城___](http://www.jianshu.com/users/b82d2721ba07/latest_articles) / [https://github.com/zangqilong198812](https://github.com/zangqilong198812) | ... | 
 [@杨萧玉HIT](http://weibo.com/yulingtianxia) | [玉令天下的博客](http://yulingtianxia.com/) / [https://github.com/yulingtianxia](https://github.com/yulingtianxia) | ... |
-Glow技术团队：<br/> - 顾鹏（[@no-computer](http://weibo.com/p/1005051718466757)）<br/> - 许帅（[@许小帅_allen](http://www.weibo.com/a11en)） | [Glow 技术团队博客](http://tech.glowing.com/cn/) | ... |
+Glow技术团队：<br/> 顾鹏（[@no-computer](http://weibo.com/p/1005051718466757)）/ 许帅（[@许小帅_allen](http://www.weibo.com/a11en)） | [Glow 技术团队博客](http://tech.glowing.com/cn/) | ... |
 唐韧 | [唐韧_Ryan][唐韧_Ryan] | ... |
 ... | [不会开机的男孩][不会开机的男孩] / | ... |
 ... | [Chun Tips][Chun Tips] | ... |
