@@ -2,8 +2,15 @@
 
 ## 目录
  * [前言](#前言)
+ * [苹果官方](#苹果官方)
+ * [苹果开发者计划](#苹果开发者计划)
  * [教程](#教程)
  * [入门](#入门)
+ * [Mac OS X](#mac-os-x)
+  * [Bash](#bash)
+ * [Xcode](#xcode)
+  * [llvm](#llvm)
+ * [C/C++编程](#c/c++编程)
  * [Objective-C编程](#objective-c编程)
   * [Objective-C Runtime](#objective-c-runtime)
   * [AOP](#aop)
@@ -29,12 +36,14 @@
  * [Audio/Video](#audio/video)
  * [编码规范/最佳实践](#编码规范/最佳实践)
  * [测试](#测试)
+  * [gcov/lcov](#gcov/lcov)
+  * [XcodeCoverage](#xcodecoverage)
  * [并发编程](#并发编程)
   * [pthread](#pthread)
   * [NSThread](#nsthread)
-  * [GCD](#gcd)
   * [Operation Queue](#operation-queue)
   * [Run Loop](#run-loop)
+  * [GCD](#gcd)
  * [网络编程](#网络编程)
   * [TCP协议](#tcp协议)
   * [HTTP协议](#http协议)
@@ -50,7 +59,6 @@
  * [国际化](#国际化)
  * [二维码](#二维码)
  * [字体](#字体)
- * [苹果开发者账号](#苹果开发者账号)
  * [跨平台](#跨平台)
  * [经验之谈](#经验之谈)
  * [读书笔记](#读书笔记)
@@ -69,13 +77,25 @@
   * [MBProgressHUD](#mbprogresshud)
  * [产品](#产品)
   * [IM](#im)
- * [附A 站点列表](#附a-站点列表)
- * [附B 博客列表](#附b-博客列表)
+ * [附A iOS技术网站](#附a-ios技术网站)
+ * [附B iOS圈各路大神](#附b-ios圈各路大神)
 
 ## 前言
 本文档整理iOS开发参考资料。本文档将不断更新维护 ~
 
 
+## 苹果官方
+0. [苹果中国](http://www.apple.com/cn/)
+0. [Apple Developer](https://developer.apple.com/)
+0. [iOS Dev Center](https://developer.apple.com/devcenter/ios/index.action)
+0. [iOS Developer Library](https://developer.apple.com/library/ios/navigation/)
+
+
+## 苹果开发者计划
+0. [App Distribution Guide](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/Introduction/Introduction.html) by [iOS Developer Library][iOS Developer Library]
+0. [苹果开发者账号那些事儿（一）](http://ryantang.me/blog/2013/08/28/apple-account-1/) by [唐韧_Ryan][唐韧_Ryan]
+0. [苹果开发者账号那些事儿（二）](http://ryantang.me/blog/2013/09/03/apple-account-2/) by [唐韧_Ryan][唐韧_Ryan]
+0. [苹果开发者账号那些事儿（三）](http://ryantang.me/blog/2013/11/28/apple-account-3/) by [唐韧_Ryan][唐韧_Ryan]
 
 
 ## 教程
@@ -88,13 +108,25 @@
 0. [iOS开发工程师职业学习线路图](http://edu.51cto.com/roadmap/view/id-7.html) by [51CTO学院][51CTO学院] | 收费视频教程
 
 
-
-
 ## 入门
 0. [Start Developing iOS Apps Today](https://developer.apple.com/library/ios/referencelibrary/GettingStarted/RoadMapiOSCh/index.html) by [iOS Developer Library][iOS Developer Library]
 0. [iOS Technology Overview](https://developer.apple.com/library/ios/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/Introduction/Introduction.html) by [iOS Developer Library][iOS Developer Library]
 
 
+## Mac OS X
+
+### Bash
+...
+
+
+## Xcode
+
+### llvm
+...
+
+
+## C/C++编程
+...
 
 
 ## Objective-C编程
@@ -129,8 +161,6 @@
 0. [Objective-C中的Block][Objective-C中的Block] by [OneV's Den][OneV's Den]
 0. [Wrapping Objective-C Delegates with Blocks][Wrapping Objective-C Delegates with Blocks] by [Pivotal Labs][Pivotal Labs]
 0. [黑幕背后的__block修饰符][黑幕背后的__block修饰符] by [Chun Tips][Chun Tips]
-
-
 
 
 ## Foundation框架
@@ -413,13 +443,6 @@
 
 
 
-## 苹果开发者账号
-0. [苹果开发者账号那些事儿（一）][苹果开发者账号那些事儿（一）] by [唐韧_Ryan][唐韧_Ryan]
-0. [苹果开发者账号那些事儿（二）][苹果开发者账号那些事儿（二）] by [唐韧_Ryan][唐韧_Ryan]
-0. [苹果开发者账号那些事儿（三）][苹果开发者账号那些事儿（三）] by [唐韧_Ryan][唐韧_Ryan]
-
-
-
 ## 跨平台
 0. [跨平台开发时代的 (再次) 到来？](http://onevcat.com/2015/03/cross-platform/) by [OneV's Den][OneV's Den]
 0. [谈谈 React Native](http://blog.devtang.com/blog/2015/02/01/talk-about-react-native/) by [唐巧][唐巧]
@@ -510,10 +533,9 @@
 
 
 
-## 附A 站点列表
+## 附A iOS技术网站
 站点地址 | 站点简介 |
 ------------ | ------------ |
-[iOS Developer Library ][iOS Developer Library] | iOS Developer LibraryiOS开发资料库 |
 [objc.io][objc.io] | ... |
 [objc中国][objc中国] | objc.io中文翻译 |
 [Ray Wenderlich][raywenderlich] | 英文教程网 |
@@ -523,26 +545,26 @@
 
 
 
-## 附B 博客列表
-博客地址 | 博主简介 |
------------- | ------------ |
-[Mattt Thompson][Mattt Thompson] | AFNetworking作者。|
-[唐巧的技术博客][唐巧] | [@唐巧_boy](http://weibo.com/tangqiaoboy)，资深iOS开发者，InfoQ编辑，Blogger，目前在猿题库创业。|
-[OneV's Den][OneV's Den] | 王巍（喵神，[@onevcat](http://weibo.com/onevcat)），iOS/Unity开发者，`objc中国`发起者。现居日本，就职于 LINE。|
-[叶孤城][叶孤城] | [@叶孤城___](http://weibo.com/u/1438670852) |
-[唐韧_Ryan][唐韧_Ryan] | ... |
-[不会开机的男孩][不会开机的男孩] | ... |
-[玉令天下的Blog][玉令天下的Blog] | 杨萧玉，... |
-[Chun Tips][Chun Tips] | 叶纯俊，... |
-[answer-huang][answer-huang] | ... |
-[icyleaf][icyleaf] | ... |
-[Glow 技术团队博客][Glow 技术团队博客] | ... |
-[土土哥的技术Blog][土土哥的技术Blog] | ... |
-[里脊串的开发随笔][里脊串的开发随笔] | ... |
-[南峰子的技术博客][南峰子的技术博客] | ... |
-[Starming星光社][Starming星光社] | 站长：[@戴铭](http://weibo.com/allstarming) |
-[Why's Blog][Why's Blog] | [@请叫我汪二](http://weibo.com/small1030light) |
-[三石·道][三石·道] | ... |
+## 附B iOS圈各路大神
+博主 | 博客 / Github | 主要作品 |
+---- | ---- | ---- | 
+唐巧（[@唐巧_boy](http://weibo.com/tangqiaoboy)），InfoQ编辑，iOS开发者，在猿题库创业。《iOS开发进阶》作者。|  [唐巧的技术博客](http://blog.devtang.com/) / [https://github.com/tangqiaoboy](https://github.com/tangqiaoboy) | <li>[《iOS开发进阶》](http://book.douban.com/subject/26287173/)</li> |
+王巍（[@onevcat](http://weibo.com/onevcat)），人称喵神，iOS/Unity3D开发者，旅居日本，正在自学设计。| [OneV's Den](http://onevcat.com/#blog) / [https://github.com/onevcat](https://github.com/onevcat) | <li>[VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode)</li> |
+李明杰（[@M了个J](http://weibo.com/exceptions)），传智播客iOS学院院长。 | [M了个J](http://www.cnblogs.com/mjios/) / [https://github.com/CoderMJLee](https://github.com/CoderMJLee) | <li>[MJRefresh](https://github.com/CoderMJLee/MJRefresh)</li> <li>[MJExtension](https://github.com/CoderMJLee/MJExtension)</li> |
+[@南峰子_老驴](http://weibo.com/touristdiary) | [南峰子的技术博客](http://southpeak.github.io/) / [https://github.com/southpeak](https://github.com/southpeak) | ... |
+[@请叫我汪二](http://weibo.com/small1030light) | [Why's Blog](http://blog.callmewhy.com/) / [https://github.com/callmewhy](https://github.com/callmewhy) |
+[@叶孤城___](http://weibo.com/u/1438670852)，动画高手。| [叶孤城___](http://www.jianshu.com/users/b82d2721ba07/latest_articles) / [https://github.com/zangqilong198812](https://github.com/zangqilong198812) | ... | 
+[@杨萧玉HIT](http://weibo.com/yulingtianxia)，哈工大学生。 | [玉令天下的博客](http://yulingtianxia.com/) / [https://github.com/yulingtianxia](https://github.com/yulingtianxia) | ... |
+Glow技术团队：顾鹏（[@no-computer](http://weibo.com/p/1005051718466757)）、许帅（[@许小帅_allen](http://www.weibo.com/a11en)） | [Glow 技术团队博客](http://tech.glowing.com/cn/) | ... |
+唐韧 | [唐韧_Ryan][唐韧_Ryan] | ... |
+... | [不会开机的男孩][不会开机的男孩] / | ... |
+... | [Chun Tips][Chun Tips] | ... |
+... | [answer-huang][answer-huang] | ... |
+... | [icyleaf][icyleaf] | ... |
+... | [土土哥的技术Blog][土土哥的技术Blog] | ... |
+... | [里脊串的开发随笔][里脊串的开发随笔] | ... |
+[@戴铭](http://weibo.com/allstarming) | [Starming星光社][Starming星光社] / | ... |
+Mattt Thompson | [Mattt Thompson][Mattt Thompson] | AFNetworking |
 
 [----]: "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 
