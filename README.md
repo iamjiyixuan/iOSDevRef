@@ -548,6 +548,8 @@
 ## 附B iOS圈各路大神
 博主 | 博客 / Github | 主要作品 |
 ---- | ---- | ---- | 
+Mattt Thompson | [NSHipster](http://nshipster.com/) / [mattt](https://github.com/mattt) | [AFNetworking](https://github.com/AFNetworking/AFNetworking) |
+郝培强（[@tinyfool](http://weibo.com/tinyfool)） | [Tinyfool的Blog](http://tiny4.org/blog/) / ... | ... |
 唐巧（[@唐巧_boy](http://weibo.com/tangqiaoboy)）|  [唐巧的技术博客](http://blog.devtang.com/) / [tangqiaoboy](https://github.com/tangqiaoboy) | [《iOS开发进阶》](http://book.douban.com/subject/26287173/) |
 王巍（[@onevcat](http://weibo.com/onevcat)）| [OneV's Den](http://onevcat.com/#blog) / [onevcat](https://github.com/onevcat) | [VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode) |
 李明杰（[@M了个J](http://weibo.com/exceptions)） | [M了个J](http://www.cnblogs.com/mjios/) / [CoderMJLee](https://github.com/CoderMJLee) | [MJRefresh](https://github.com/CoderMJLee/MJRefresh) / [MJExtension](https://github.com/CoderMJLee/MJExtension) |
@@ -564,7 +566,9 @@ Glow技术团队：<br/> 顾鹏（[@no-computer](http://weibo.com/p/100505171846
 ... | [土土哥的技术Blog][土土哥的技术Blog] / ... | ... |
 [@里脊串](http://www.weibo.com/ljc1986) | [里脊串的开发随笔](http://adad184.com/) / [adad184](https://github.com/adad184) | [MMTweenAnimation](https://github.com/adad184/MMTweenAnimation) |
 戴铭（[@戴铭](http://weibo.com/allstarming)） | [Starming星光社](http://www.starming.com/) / [ming1016](https://github.com/ming1016/) | ... |
-Mattt Thompson | [NSHipster](http://nshipster.com/) / [mattt](https://github.com/mattt) | [AFNetworking](https://github.com/AFNetworking/AFNetworking) |
+杨骑滔（[@KITTEN-YANG](http://weibo.com/710312327)） | [Kitten's 时间胶囊](http://kittenyang.com/#blog) / [KittenYang](https://github.com/KittenYang) | ... |
+曾宪华 | [Jack](http://www.pailixiu.com/Jack/personal/) / [xhzengAIB](https://github.com/xhzengAIB) | [MessageDisplayKit](https://github.com/xhzengAIB/MessageDisplayKit) / [PopMenu](https://github.com/xhzengAIB/PopMenu) / [RealTimeBlur](https://github.com/xhzengAIB/RealTimeBlur) |
+王轲（[@王轲_IndieBros](http://weibo.com/indiebros)）<br/><br/> 唱吧iOS架构师，IndieBros Studio创始人，iOS独立开发者。 | [iWangKe.me](http://www.iwangke.me/) / | ... |
 
 [----]: "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 
