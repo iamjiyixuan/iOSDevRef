@@ -550,12 +550,12 @@
 ---- | ---- | ---- | 
 唐巧（[@唐巧_boy](http://weibo.com/tangqiaoboy)）|  [唐巧的技术博客](http://blog.devtang.com/) / [tangqiaoboy](https://github.com/tangqiaoboy) | [《iOS开发进阶》](http://book.douban.com/subject/26287173/) |
 王巍（[@onevcat](http://weibo.com/onevcat)）| [OneV's Den](http://onevcat.com/#blog) / [onevcat](https://github.com/onevcat) | [VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode) |
-李明杰（[@M了个J](http://weibo.com/exceptions)） | [M了个J](http://www.cnblogs.com/mjios/) / [CoderMJLee](https://github.com/CoderMJLee) | [MJRefresh](https://github.com/CoderMJLee/MJRefresh) / [MJExtension](https://github.com/CoderMJLee/MJExtension) |
+李明杰（[@M了个J](http://weibo.com/exceptions)） | [M了个J](http://www.cnblogs.com/mjios/) / [CoderMJLee](https://github.com/CoderMJLee) | [MJRefresh](https://github.com/CoderMJLee/MJRefresh), [MJExtension](https://github.com/CoderMJLee/MJExtension) |
 [@南峰子_老驴](http://weibo.com/touristdiary) | [南峰子的技术博客](http://southpeak.github.io/) / [southpeak](https://github.com/southpeak) | ... |
 [@请叫我汪二](http://weibo.com/small1030light) | [Why's Blog](http://blog.callmewhy.com/) / [callmewhy](https://github.com/callmewhy) |
 [@叶孤城___](http://weibo.com/u/1438670852)| [叶孤城___](http://www.jianshu.com/users/b82d2721ba07/latest_articles) / [zangqilong198812](https://github.com/zangqilong198812) | ... | 
 [@杨萧玉HIT](http://weibo.com/yulingtianxia) | [玉令天下的博客](http://yulingtianxia.com/) / [yulingtianxia](https://github.com/yulingtianxia) | ... |
-Glow技术团队：<br/> 顾鹏（[@no-computer](http://weibo.com/p/1005051718466757)）、许帅（[@许小帅_allen](http://www.weibo.com/a11en)） | [Glow 技术团队博客](http://tech.glowing.com/cn/) / ... | ... |
+Glow技术团队：<br/> 顾鹏（[@no-computer](http://weibo.com/p/1005051718466757)）, 许帅（[@许小帅_allen](http://www.weibo.com/a11en)） | [Glow 技术团队博客](http://tech.glowing.com/cn/) / ... | ... |
 唐韧（[@唐韧_Ryan](http://weibo.com/renrentang)） | [唐韧_Ryan][唐韧_Ryan] / ... | ... |
 ... | [不会开机的男孩][不会开机的男孩] / ... | ... |
 ... | [Chun Tips][Chun Tips] / ... | ... |
