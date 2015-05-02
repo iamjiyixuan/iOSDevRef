@@ -568,7 +568,8 @@ Glow技术团队：<br/> 顾鹏（[@no-computer](http://weibo.com/p/100505171846
 戴铭（[@戴铭](http://weibo.com/allstarming)） | [Starming星光社](http://www.starming.com/) / [ming1016](https://github.com/ming1016/) | ... |
 杨骑滔（[@KITTEN-YANG](http://weibo.com/710312327)） | [Kitten's 时间胶囊](http://kittenyang.com/#blog) / [KittenYang](https://github.com/KittenYang) | ... |
 曾宪华 | [Jack](http://www.pailixiu.com/Jack/personal/) / [xhzengAIB](https://github.com/xhzengAIB) | [MessageDisplayKit](https://github.com/xhzengAIB/MessageDisplayKit) / [PopMenu](https://github.com/xhzengAIB/PopMenu) / [RealTimeBlur](https://github.com/xhzengAIB/RealTimeBlur) |
-王轲（[@王轲_IndieBros](http://weibo.com/indiebros)）<br/><br/> 唱吧iOS架构师，IndieBros Studio创始人，iOS独立开发者。 | [iWangKe.me](http://www.iwangke.me/) / | ... |
+王轲（[@王轲_IndieBros](http://weibo.com/indiebros)）<br/><br/> 唱吧iOS架构师，IndieBros Studio创始人，iOS独立开发者。 | [iWangKe.me](http://www.iwangke.me/) / [ewangkeH](https://github.com/ewangke) | ... |
+[@图拉鼎](http://weibo.com/tualatrix) | [IMTX](http://imtx.me/) / ... | [Manico](http://manico.im/) / [奇点微博客户端](https://itunes.apple.com/app/id947792507) |
 
 [----]: "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 
