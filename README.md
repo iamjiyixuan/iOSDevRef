@@ -555,8 +555,8 @@
 [@请叫我汪二](http://weibo.com/small1030light) | [Why's Blog](http://blog.callmewhy.com/) / [callmewhy](https://github.com/callmewhy) |
 [@叶孤城___](http://weibo.com/u/1438670852)| [叶孤城___](http://www.jianshu.com/users/b82d2721ba07/latest_articles) / [zangqilong198812](https://github.com/zangqilong198812) | ... | 
 [@杨萧玉HIT](http://weibo.com/yulingtianxia) | [玉令天下的博客](http://yulingtianxia.com/) / [yulingtianxia](https://github.com/yulingtianxia) | ... |
-Glow技术团队：<br/> 顾鹏（[@no-computer](http://weibo.com/p/1005051718466757)）/ 许帅（[@许小帅_allen](http://www.weibo.com/a11en)） | [Glow 技术团队博客](http://tech.glowing.com/cn/) / ... | ... |
-唐韧 | [唐韧_Ryan][唐韧_Ryan] / ... | ... |
+Glow技术团队：<br/> 顾鹏（[@no-computer](http://weibo.com/p/1005051718466757)）、许帅（[@许小帅_allen](http://www.weibo.com/a11en)） | [Glow 技术团队博客](http://tech.glowing.com/cn/) / ... | ... |
+唐韧（[@唐韧_Ryan](http://weibo.com/renrentang)） | [唐韧_Ryan][唐韧_Ryan] / ... | ... |
 ... | [不会开机的男孩][不会开机的男孩] / ... | ... |
 ... | [Chun Tips][Chun Tips] / ... | ... |
 ... | [answer-huang][answer-huang] / ... | ... |
