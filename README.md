@@ -99,7 +99,10 @@
 
 
 ## 教程
+0. [Ry’s Objective-C tutorial](http://rypress.com/tutorials/objective-c/)
 0. [iPhone Tutorials](http://www.raywenderlich.com/tutorials) by [Ray Wenderlich][raywenderlich]
+0. [iOS Programming Course](http://www.appcoda.com/ios-programming-course/) by [AppCoda](http://www.appcoda.com/)
+0. [27 places to learn iOS development. Best ones.](https://medium.com/ios-os-x-development/27-places-to-learn-ios-development-best-ones-b1bcfb48efab)
 0. <del>[斯坦福大学公开课：iPad和iPhone应用开发(iOS5)](http://open.163.com/special/opencourse/ipadandiphoneapplication.html) by [网易公开课][网易公开课] | 免费视频教程，iOS 5已经过时，建议从iOS 7开始看。</del>
 0. [斯坦福大学公开课：iOS 7应用开发](http://open.163.com/special/opencourse/ios7.html) by [网易公开课][网易公开课] | 免费视频教程，重点推荐，由前苹果工程师主讲。
 0. [斯坦福大学公开课：iOS 8开发](http://open.163.com/special/opencourse/ios8.html) by [网易公开课][网易公开课] | 同上
@@ -485,7 +488,7 @@
 
 ## 工具
 
-### Git/GitHub
+### Git / GitHub
 0. [Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000) by [廖雪峰的官方网站][廖雪峰的官方网站]
 0. [GitHub Top 100 简介](https://github.com/Aufree/trip-to-iOS/blob/master/Top-100.md) by [@李锦发](http://weibo.com/jinfali)
 
@@ -507,7 +510,7 @@
 
 
 
-## 源码解析
+## 开源框架解读
 
 ### Mantle
 0. [工具篇：Mantle](http://southpeak.github.io/blog/2015/01/11/gong-ju-pian-:mantle/) by [南峰子的技术博客][南峰子的技术博客]
@@ -519,7 +522,8 @@
 ### MBProgressHUD
 0. [源码篇：MBProgressHUD](http://southpeak.github.io/blog/2015/03/24/yuan-ma-pian-:mbprogresshud/) by [南峰子的技术博客][南峰子的技术博客]
 
-
+### POP
+0. [Facebook POP 进阶指南](http://blog.zhowkev.in/2014/06/06/facebook-pop/) by [Kevin Blog](http://blog.zhowkev.in/)
 
 
 ## 产品
@@ -545,17 +549,21 @@
 
 
 
-## 附B iOS圈各路大神
+## 附B iOS圈各路大神（排名不分先后）
 博主 | 博客 / Github | 主要作品 |
 ---- | ---- | ---- | 
 Mattt Thompson | [NSHipster](http://nshipster.com/) / [mattt](https://github.com/mattt) | [AFNetworking](https://github.com/AFNetworking/AFNetworking) |
 郝培强（[@tinyfool](http://weibo.com/tinyfool)） | [Tinyfool的Blog](http://tiny4.org/blog/) / ... | ... |
+池建强（[@池建强](http://weibo.com/idreamland)）| [MacTalk-池建强的随想录](http://macshuo.com/) / ... | [《MacTalk 人生元编程》](http://book.douban.com/subject/25826578/) |
 唐巧（[@唐巧_boy](http://weibo.com/tangqiaoboy)）|  [唐巧的技术博客](http://blog.devtang.com/) / [tangqiaoboy](https://github.com/tangqiaoboy) | [《iOS开发进阶》](http://book.douban.com/subject/26287173/) |
 王巍（[@onevcat](http://weibo.com/onevcat)）| [OneV's Den](http://onevcat.com/#blog) / [onevcat](https://github.com/onevcat) | [VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode) |
+周楷雯（[@周楷雯Kevin](http://weibo.com/kevinzhow)） | [Kevin Blog](http://blog.zhowkev.in/) / [kevinzhow](https://github.com/kevinzhow) | [Producter](http://producter.io/) / [PNChart](https://github.com/kevinzhow/PNChart)
 李明杰（[@M了个J](http://weibo.com/exceptions)） | [M了个J](http://www.cnblogs.com/mjios/) / [CoderMJLee](https://github.com/CoderMJLee) | [MJRefresh](https://github.com/CoderMJLee/MJRefresh) / [MJExtension](https://github.com/CoderMJLee/MJExtension) |
 [@南峰子_老驴](http://weibo.com/touristdiary) | [南峰子的技术博客](http://southpeak.github.io/) / [southpeak](https://github.com/southpeak) | ... |
 [@请叫我汪二](http://weibo.com/small1030light) | [Why's Blog](http://blog.callmewhy.com/) / [callmewhy](https://github.com/callmewhy) |
 [@叶孤城___](http://weibo.com/u/1438670852)| [叶孤城___](http://www.jianshu.com/users/b82d2721ba07/latest_articles) / [zangqilong198812](https://github.com/zangqilong198812) | ... | 
+雷纯锋（[@雷纯锋2011](http://weibo.com/leichunfeng)） | [雷纯锋的技术博客](http://blog.leichunfeng.com/) / [leichunfeng](https://github.com/leichunfeng) | [GitBucket](https://itunes.apple.com/cn/app/id961330940?mt=8) / [MVVMReactiveCocoa](https://github.com/leichunfeng/MVVMReactiveCocoa) |
+[@里脊串](http://weibo.com/ljc1986) | [里脊串的开发随笔](http://adad184.com/) / [adad184](https://github.com/adad184) | [MMTweenAnimation](https://github.com/adad184/MMTweenAnimation) / [MMPlaceHolder](https://github.com/adad184/MMPlaceHolder) |
 杨萧玉（[@杨萧玉HIT](http://weibo.com/yulingtianxia)） | [玉令天下的博客](http://yulingtianxia.com/) / [yulingtianxia](https://github.com/yulingtianxia) | ... |
 Glow技术团队：<br/> 顾鹏（[@no-computer](http://weibo.com/p/1005051718466757)）/ 许帅（[@许小帅_allen](http://www.weibo.com/a11en)） | [Glow 技术团队博客](http://tech.glowing.com/cn/) / ... | ... |
 唐韧（[@唐韧_Ryan](http://weibo.com/renrentang)） | [唐韧_Ryan][唐韧_Ryan] / [tangren03](https://github.com/tangren03) | ... |
@@ -564,11 +572,10 @@ Glow技术团队：<br/> 顾鹏（[@no-computer](http://weibo.com/p/100505171846
 [@answer-huang](http://weibo.com/u/1623064627) | [answer-huang](http://answerhuang.duapp.com/) / ... | ... |
 [@icy1eaf](http://www.weibo.com/icyleaf) | [icyleaf](http://icyleaf.com/) / [icyleaf](https://github.com/icyleaf) | ... |
 ... | [土土哥的技术Blog][土土哥的技术Blog] / ... | ... |
-[@里脊串](http://www.weibo.com/ljc1986) | [里脊串的开发随笔](http://adad184.com/) / [adad184](https://github.com/adad184) | [MMTweenAnimation](https://github.com/adad184/MMTweenAnimation) |
 戴铭（[@戴铭](http://weibo.com/allstarming)） | [Starming星光社](http://www.starming.com/) / [ming1016](https://github.com/ming1016/) | ... |
 杨骑滔（[@KITTEN-YANG](http://weibo.com/710312327)） | [Kitten's 时间胶囊](http://kittenyang.com/#blog) / [KittenYang](https://github.com/KittenYang) | ... |
 曾宪华 | [Jack](http://www.pailixiu.com/Jack/personal/) / [xhzengAIB](https://github.com/xhzengAIB) | [MessageDisplayKit](https://github.com/xhzengAIB/MessageDisplayKit) / [PopMenu](https://github.com/xhzengAIB/PopMenu) / [RealTimeBlur](https://github.com/xhzengAIB/RealTimeBlur) |
-王轲（[@王轲_IndieBros](http://weibo.com/indiebros)）<br/><br/> 唱吧iOS架构师，IndieBros Studio创始人，iOS独立开发者。 | [iWangKe.me](http://www.iwangke.me/) / [ewangkeH](https://github.com/ewangke) | ... |
+王轲（[@王轲_IndieBros](http://weibo.com/indiebros)） | [iWangKe.me](http://www.iwangke.me/) / [ewangkeH](https://github.com/ewangke) | ... |
 [@图拉鼎](http://weibo.com/tualatrix) | [IMTX](http://imtx.me/) / ... | [Manico](http://manico.im/) / [奇点微博客户端](https://itunes.apple.com/app/id947792507) |
 
 [----]: "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
