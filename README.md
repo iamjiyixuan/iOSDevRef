@@ -287,7 +287,6 @@
 ## Core Animation
 0. [Core Animation Programming Guide][Core Animation Programming Guide] by [iOS Developer Library][iOS Developer Library]
 0. [Core Animation Programming Guide 译] by 海水的味道
-0. [POP介绍与使用实践（快速上手动画）](http://adad184.com/2015/03/11/2015-03-11-intro-to-pop/) by [里脊串的开发随笔][里脊串的开发随笔]
 
 
 
@@ -523,6 +522,7 @@
 0. [源码篇：MBProgressHUD](http://southpeak.github.io/blog/2015/03/24/yuan-ma-pian-:mbprogresshud/) by [南峰子的技术博客][南峰子的技术博客]
 
 ### POP
+0. [POP介绍与使用实践（快速上手动画）](http://adad184.com/2015/03/11/2015-03-11-intro-to-pop/) by [里脊串的开发随笔][里脊串的开发随笔]
 0. [Facebook POP 进阶指南](http://blog.zhowkev.in/2014/06/06/facebook-pop/) by [Kevin Blog](http://blog.zhowkev.in/)
 
 
@@ -549,21 +549,24 @@
 
 
 
-## 附B iOS圈各路大神（排名不分先后）
+## 附B iOS技术圈各路大神（排名不分先后）
 博主 | 博客 / Github | 主要作品 |
 ---- | ---- | ---- | 
 Mattt Thompson | [NSHipster](http://nshipster.com/) / [mattt](https://github.com/mattt) | [AFNetworking](https://github.com/AFNetworking/AFNetworking) |
 郝培强（[@tinyfool](http://weibo.com/tinyfool)） | [Tinyfool的Blog](http://tiny4.org/blog/) / ... | ... |
 池建强（[@池建强](http://weibo.com/idreamland)）| [MacTalk-池建强的随想录](http://macshuo.com/) / ... | [《MacTalk 人生元编程》](http://book.douban.com/subject/25826578/) |
 唐巧（[@唐巧_boy](http://weibo.com/tangqiaoboy)）|  [唐巧的技术博客](http://blog.devtang.com/) / [tangqiaoboy](https://github.com/tangqiaoboy) | [《iOS开发进阶》](http://book.douban.com/subject/26287173/) |
-王巍（[@onevcat](http://weibo.com/onevcat)）| [OneV's Den](http://onevcat.com/#blog) / [onevcat](https://github.com/onevcat) | [VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode) |
-周楷雯（[@周楷雯Kevin](http://weibo.com/kevinzhow)） | [Kevin Blog](http://blog.zhowkev.in/) / [kevinzhow](https://github.com/kevinzhow) | [Producter](http://producter.io/) / [PNChart](https://github.com/kevinzhow/PNChart)
+王巍（[@onevcat](http://weibo.com/onevcat)）| [OneV's Den](http://onevcat.com/#blog) / [onevcat](https://github.com/onevcat) | [swifter.tips](http://swifter.tips/) / [VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode) / [objc中国][objc中国]（as 项目发起人） |
+周楷雯（[@周楷雯Kevin](http://weibo.com/kevinzhow)） | [Kevin Blog](http://blog.zhowkev.in/) / [kevinzhow](https://github.com/kevinzhow) | [《Producter》](http://producter.io/) / [PNChart](https://github.com/kevinzhow/PNChart)
 李明杰（[@M了个J](http://weibo.com/exceptions)） | [M了个J](http://www.cnblogs.com/mjios/) / [CoderMJLee](https://github.com/CoderMJLee) | [MJRefresh](https://github.com/CoderMJLee/MJRefresh) / [MJExtension](https://github.com/CoderMJLee/MJExtension) |
 [@南峰子_老驴](http://weibo.com/touristdiary) | [南峰子的技术博客](http://southpeak.github.io/) / [southpeak](https://github.com/southpeak) | ... |
+孙源（[@我就叫Sunny怎么了](http://weibo.com/u/1364395395)） | [sunnyxx的技术博客](http://blog.sunnyxx.com/) / [sunnyxx](https://github.com/sunnyxx) | []()
+百度知道技术团队 | ... / [forkingdog](https://github.com/forkingdog) | [UITableView-FDTemplateLayoutCell](https://github.com/forkingdog/UITableView-FDTemplateLayoutCell) / [FDFullscreenPopGesture](https://github.com/forkingdog/FDFullscreenPopGesture) / [UIView-FDCollapsibleConstraints](https://github.com/forkingdog/UIView-FDCollapsibleConstraints)
 [@请叫我汪二](http://weibo.com/small1030light) | [Why's Blog](http://blog.callmewhy.com/) / [callmewhy](https://github.com/callmewhy) |
 [@叶孤城___](http://weibo.com/u/1438670852)| [叶孤城___](http://www.jianshu.com/users/b82d2721ba07/latest_articles) / [zangqilong198812](https://github.com/zangqilong198812) | ... | 
 雷纯锋（[@雷纯锋2011](http://weibo.com/leichunfeng)） | [雷纯锋的技术博客](http://blog.leichunfeng.com/) / [leichunfeng](https://github.com/leichunfeng) | [GitBucket](https://itunes.apple.com/cn/app/id961330940?mt=8) / [MVVMReactiveCocoa](https://github.com/leichunfeng/MVVMReactiveCocoa) |
 [@里脊串](http://weibo.com/ljc1986) | [里脊串的开发随笔](http://adad184.com/) / [adad184](https://github.com/adad184) | [MMTweenAnimation](https://github.com/adad184/MMTweenAnimation) / [MMPlaceHolder](https://github.com/adad184/MMPlaceHolder) |
+[@nixzhu](http://weibo.com/nixzhu) | [nixzhu.me](http://nixzhu.me/) / [nixzhu](https://github.com/nixzhu) | []()
 杨萧玉（[@杨萧玉HIT](http://weibo.com/yulingtianxia)） | [玉令天下的博客](http://yulingtianxia.com/) / [yulingtianxia](https://github.com/yulingtianxia) | ... |
 Glow技术团队：<br/> 顾鹏（[@no-computer](http://weibo.com/p/1005051718466757)）/ 许帅（[@许小帅_allen](http://www.weibo.com/a11en)） | [Glow 技术团队博客](http://tech.glowing.com/cn/) / ... | ... |
 唐韧（[@唐韧_Ryan](http://weibo.com/renrentang)） | [唐韧_Ryan][唐韧_Ryan] / [tangren03](https://github.com/tangren03) | ... |
@@ -577,6 +580,9 @@ Glow技术团队：<br/> 顾鹏（[@no-computer](http://weibo.com/p/100505171846
 曾宪华 | [Jack](http://www.pailixiu.com/Jack/personal/) / [xhzengAIB](https://github.com/xhzengAIB) | [MessageDisplayKit](https://github.com/xhzengAIB/MessageDisplayKit) / [PopMenu](https://github.com/xhzengAIB/PopMenu) / [RealTimeBlur](https://github.com/xhzengAIB/RealTimeBlur) |
 王轲（[@王轲_IndieBros](http://weibo.com/indiebros)） | [iWangKe.me](http://www.iwangke.me/) / [ewangkeH](https://github.com/ewangke) | ... |
 [@图拉鼎](http://weibo.com/tualatrix) | [IMTX](http://imtx.me/) / ... | [Manico](http://manico.im/) / [奇点微博客户端](https://itunes.apple.com/app/id947792507) |
+
+### 更多
+* [中文 iOS/Mac 开发博客列表](https://github.com/tangqiaoboy/iOSBlogCN) - [@唐巧_boy](http://weibo.com/tangqiaoboy) 维护的技术博客列表
 
 [----]: "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 
