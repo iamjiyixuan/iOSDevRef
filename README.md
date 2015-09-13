@@ -224,7 +224,7 @@
 ### UITextView
 0. [UITextView编辑时插入自定义表情-简单的图文混编](http://tutuge.me/2015/03/07/UITextView%E7%BC%96%E8%BE%91%E6%97%B6%E6%8F%92%E5%85%A5%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A1%A8%E6%83%85-%E7%AE%80%E5%8D%95%E7%9A%84%E5%9B%BE%E6%96%87%E6%B7%B7%E7%BC%96/) by [土土哥的技术Blog][土土哥的技术Blog]
 
-### UITableView/UITableViewController
+### UITableView
 0. [Table View Programming Guide for iOS][Table View Programming Guide for iOS] by [iOS Developer Library][iOS Developer Library]
 0. [整洁的 Table View 代码][整洁的 Table View 代码] by [objc中国][objc中国]
 
@@ -553,6 +553,7 @@
 博主 | 博客 / Github | 主要作品 |
 ---- | ---- | ---- | 
 Mattt Thompson | [NSHipster](http://nshipster.com/) / [mattt](https://github.com/mattt) | [AFNetworking](https://github.com/AFNetworking/AFNetworking) |
+Ole Begemann | [oleb.net](http://oleb.net/) / [ole](https://github.com/ole) | ... |
 郝培强（[@tinyfool](http://weibo.com/tinyfool)） | [Tinyfool的Blog](http://tiny4.org/blog/) / ... | ... |
 池建强（[@池建强](http://weibo.com/idreamland)）| [MacTalk-池建强的随想录](http://macshuo.com/) / ... | [《MacTalk 人生元编程》](http://book.douban.com/subject/25826578/) |
 唐巧（[@唐巧_boy](http://weibo.com/tangqiaoboy)）|  [唐巧的技术博客](http://blog.devtang.com/) / [tangqiaoboy](https://github.com/tangqiaoboy) | [《iOS开发进阶》](http://book.douban.com/subject/26287173/) |
