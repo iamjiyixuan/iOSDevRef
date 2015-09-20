@@ -551,7 +551,7 @@
 
 ## 附B iOS / MacOS 技术圈各路大神（排名不分先后）
 
-> **Mattt Thompson**
+> <img src="http://nshipster.s3.amazonaws.com/mattt-thompson.jpg" width="50" height="50" style="border-radius: 50%;"> **Mattt Thompson** 
 
 * Github: [https://github.com/mattt](https://github.com/mattt)
 * Blog: [http://nshipster.com/](http://nshipster.com/)
@@ -560,16 +560,16 @@
 
 ----
 
-> **Ole Begemann**
+> <img src="https://avatars3.githubusercontent.com/u/5010?v=3&s=460" width="50" height="50" style="border-radius: 50%;"> **Ole Begemann**
 
 * Github: [https://github.com/ole](https://github.com/ole)
 * Blog: [http://oleb.net/](http://oleb.net/)
 
 ----
 
-> **「tinyfool」郝培强**  
+> <img src="http://tp1.sinaimg.cn/1400229064/180/5717259654/1" width="50" height="50" style="border-radius: 50%;"> **「tinyfool」郝培强**  
 > 
-> 上海泰尼网络科技有限公司 创始人。
+> 上海泰尼网络科技有限公司创始人，OurCoders.com 站长。
 
 * Blog: [http://tiny4.org/blog/](http://tiny4.org/blog/)
 * 新浪微博: [@tinyfool](http://weibo.com/tinyfool)
@@ -579,7 +579,7 @@
 
 ----
 
-> **池建强** 
+> <img src="https://pic1.zhimg.com/12abec9c0_xl.jpg" width="50" height="50" style="border-radius: 50%;">  **池建强** 
 > 
 > 《MacTalk 人生元编程》作者，现任锤子科技平台研发总监。
 
@@ -591,13 +591,13 @@
 
 ----
 
-> **唐巧** 
+> <img src="http://tp4.sinaimg.cn/1708947107/180/5715338488/1" width="50" height="50" style="border-radius: 50%;">**唐巧** 
 > 
 > InfoQ 编辑，《iOS开发进阶》作者，目前在猿题库创业，iOS 高级研发工程师。
 
 * Github: [https://github.com/tangqiaoboy](https://github.com/tangqiaoboy)
-* Blog: [@唐巧_boy](http://weibo.com/tangqiaoboy)
-* 新浪微博: [@池建强](http://weibo.com/idreamland)
+* Blog: [唐巧的技术博客](http://blog.devtang.com/)
+* 新浪微博:  [@唐巧_boy](http://weibo.com/tangqiaoboy)
 * 微信公众号：「iOS开发」iosDevTips
 * 主要作品:
     * [《iOS开发进阶》](http://book.douban.com/subject/26287173/)
@@ -606,7 +606,7 @@
 
 ----
 
-> **「onevcat」王巍** 
+> <img src="http://cc.cocimg.com/api/uploads/20150121/1421804049370639.jpg" width="50" height="50" style="border-radius: 50%;"> **「onevcat」王巍** 
 > 
 > 「objc中国」项目发起人，现居日本，就职于 LINE。
 
@@ -622,14 +622,14 @@
 
 ----
 
-> **周楷雯** 
+> <img src="https://avatars3.githubusercontent.com/u/1156192?v=3&s=460" width="50" height="50" style="border-radius: 50%;"> **周楷雯** 
 > 
-> xxxx
+> Catch Inc. CEO，《PRODUCTER》 作者 
 
-* Github: []()
-* Blog: []()
-* 新浪微博: []()
-* * 微信公众号：
+* Github: [https://github.com/kevinzhow](https://github.com/kevinzhow)
+* Blog: [Kevin Blog](http://blog.zhowkev.in/) 
+* 新浪微博: [@周楷雯Kevin](http://weibo.com/kevinzhow)
+* 微信公众号：
 * 主要作品:
 
 ----
