@@ -551,7 +551,7 @@
 
 ## 附B iOS / MacOS 技术圈各路大神（排名不分先后）
 
-> <img src="http://nshipster.s3.amazonaws.com/mattt-thompson.jpg" width="50" height="50" style="border-radius: 50%;"> **Mattt Thompson** 
+> <img class="avatar" src="http://nshipster.s3.amazonaws.com/mattt-thompson.jpg" width="50" height="50" style="border-radius: 50%;"> **Mattt Thompson** 
 
 * Github: [https://github.com/mattt](https://github.com/mattt)
 * Blog: [http://nshipster.com/](http://nshipster.com/)
@@ -560,14 +560,14 @@
 
 ----
 
-> <img src="https://avatars3.githubusercontent.com/u/5010?v=3&s=460" width="50" height="50" style="border-radius: 50%;"> **Ole Begemann**
+> <img class="avatar" src="https://avatars3.githubusercontent.com/u/5010?v=3&s=460" width="50" height="50" style="border-radius: 50%;"> **Ole Begemann**
 
 * Github: [https://github.com/ole](https://github.com/ole)
 * Blog: [http://oleb.net/](http://oleb.net/)
 
 ----
 
-> <img src="http://tp1.sinaimg.cn/1400229064/180/5717259654/1" width="50" height="50" style="border-radius: 50%;"> **「tinyfool」郝培强**  
+> <img class="avatar" src="http://tp1.sinaimg.cn/1400229064/180/5717259654/1" width="50" height="50" style="border-radius: 50%;"> **「tinyfool」郝培强**  
 > 
 > 上海泰尼网络科技有限公司创始人，OurCoders.com 站长。
 
@@ -579,7 +579,7 @@
 
 ----
 
-> <img src="https://pic1.zhimg.com/12abec9c0_xl.jpg" width="50" height="50" style="border-radius: 50%;">  **池建强** 
+> <img class="avatar" src="https://pic1.zhimg.com/12abec9c0_xl.jpg" width="50" height="50" style="border-radius: 50%;">  **池建强** 
 > 
 > 《MacTalk 人生元编程》作者，现任锤子科技平台研发总监。
 
@@ -591,7 +591,7 @@
 
 ----
 
-> <img src="http://tp4.sinaimg.cn/1708947107/180/5715338488/1" width="50" height="50" style="border-radius: 50%;">**唐巧** 
+> <img class="avatar" src="http://tp4.sinaimg.cn/1708947107/180/5715338488/1" width="50" height="50" style="border-radius: 50%;">**唐巧** 
 > 
 > InfoQ 编辑，《iOS开发进阶》作者，目前在猿题库创业，iOS 高级研发工程师。
 
@@ -606,7 +606,7 @@
 
 ----
 
-> <img src="http://cc.cocimg.com/api/uploads/20150121/1421804049370639.jpg" width="50" height="50" style="border-radius: 50%;"> **「onevcat」王巍** 
+> **「onevcat」王巍** 
 > 
 > 「objc中国」项目发起人，现居日本，就职于 LINE。
 
@@ -622,7 +622,7 @@
 
 ----
 
-> <img src="https://avatars3.githubusercontent.com/u/1156192?v=3&s=460" width="50" height="50" style="border-radius: 50%;"> **周楷雯** 
+> <img class="avatar" src="https://avatars3.githubusercontent.com/u/1156192?v=3&s=460" width="50" height="50" style="border-radius: 50%;"> **周楷雯** 
 > 
 > Catch Inc. CEO，《PRODUCTER》 作者 
 
