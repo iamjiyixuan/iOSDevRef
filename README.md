@@ -549,15 +549,167 @@
 
 
 
-## 附B iOS技术圈各路大神（排名不分先后）
-博主 | 博客 / Github | 主要作品 |
----- | ---- | ---- | 
-Mattt Thompson | [NSHipster](http://nshipster.com/) / [mattt](https://github.com/mattt) | [AFNetworking](https://github.com/AFNetworking/AFNetworking) |
-Ole Begemann | [oleb.net](http://oleb.net/) / [ole](https://github.com/ole) | ... |
-郝培强（[@tinyfool](http://weibo.com/tinyfool)） | [Tinyfool的Blog](http://tiny4.org/blog/) / ... | ... |
-池建强（[@池建强](http://weibo.com/idreamland)）| [MacTalk-池建强的随想录](http://macshuo.com/) / ... | [《MacTalk 人生元编程》](http://book.douban.com/subject/25826578/) |
-唐巧（[@唐巧_boy](http://weibo.com/tangqiaoboy)）|  [唐巧的技术博客](http://blog.devtang.com/) / [tangqiaoboy](https://github.com/tangqiaoboy) | [《iOS开发进阶》](http://book.douban.com/subject/26287173/) |
-王巍（[@onevcat](http://weibo.com/onevcat)）| [OneV's Den](http://onevcat.com/#blog) / [onevcat](https://github.com/onevcat) | [swifter.tips](http://swifter.tips/) / [VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode) / [objc中国][objc中国]（as 项目发起人） |
+## 附B iOS / MacOS 技术圈各路大神（排名不分先后）
+
+> **Mattt Thompson**
+
+* Github: [https://github.com/mattt](https://github.com/mattt)
+* Blog: [http://nshipster.com/](http://nshipster.com/)
+* 主要作品:
+    * [AFNetworking](https://github.com/AFNetworking/AFNetworking)
+
+----
+
+> **Ole Begemann**
+
+* Github: [https://github.com/ole](https://github.com/ole)
+* Blog: [http://oleb.net/](http://oleb.net/)
+
+----
+
+> **「tinyfool」郝培强**  
+> 
+> 上海泰尼网络科技有限公司 创始人。
+
+* Blog: [http://tiny4.org/blog/](http://tiny4.org/blog/)
+* 新浪微博: [@tinyfool](http://weibo.com/tinyfool)
+* 微信公众号：「Tiny4Voice」tiny4voice
+* 了解更多：
+    * [郝培强（Tinyfool）是谁？ - 知乎](http://www.zhihu.com/question/19581223)
+
+----
+
+> **池建强** 
+> 
+> 《MacTalk 人生元编程》作者，现任锤子科技平台研发总监。
+
+* Blog: [MacTalk-池建强的随想录](http://macshuo.com/)
+* 新浪微博: [@池建强](http://weibo.com/idreamland)
+* 微信公众号：「MacTalk」sagacity-mac
+* 主要作品:
+    * [《MacTalk 人生元编程》](http://book.douban.com/subject/25826578/)
+
+----
+
+> **唐巧** 
+> 
+> InfoQ 编辑，《iOS开发进阶》作者，目前在猿题库创业，iOS 高级研发工程师。
+
+* Github: [https://github.com/tangqiaoboy](https://github.com/tangqiaoboy)
+* Blog: [@唐巧_boy](http://weibo.com/tangqiaoboy)
+* 新浪微博: [@池建强](http://weibo.com/idreamland)
+* 微信公众号：「iOS开发」iosDevTips
+* 主要作品:
+    * [《iOS开发进阶》](http://book.douban.com/subject/26287173/)
+* 了解更多：
+    * [唐巧访谈： iOS大V的技术进阶之路](http://www.cocoachina.com/programmer/20150115/10930.html) by CocoaChina
+
+----
+
+> **「onevcat」王巍** 
+> 
+> 「objc中国」项目发起人，现居日本，就职于 LINE。
+
+* Github: [https://github.com/onevcat](https://github.com/onevcat)
+* Blog: [OneV's Den](http://onevcat.com/#blog)
+* 新浪微博: [@onevcat](http://weibo.com/onevcat)
+* 主要作品:
+    * [objc中国][objc中国]（as 项目发起人）
+    * [swifter.tips](http://swifter.tips/)
+    * [VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode)
+* 了解更多
+    * [王巍访谈：关于Swift学习和AppleWatch开发的一些建议](http://www.cocoachina.com/programmer/20150121/10966.html) by CocoaChina
+
+----
+
+> **周楷雯** 
+> 
+> xxxx
+
+* Github: []()
+* Blog: []()
+* 新浪微博: []()
+* * 微信公众号：
+* 主要作品:
+
+----
+
+> **「M了个J」李明杰** 
+> 
+> xxxx
+
+* Github: []()
+* Blog: []()
+* 新浪微博: []()
+* * 微信公众号：
+* 主要作品:
+
+----
+
+> **「南峰子」** 
+> 
+> xxxx
+
+* Github: []()
+* Blog: []()
+* 新浪微博: []()
+* * 微信公众号：
+* 主要作品:
+
+----
+
+> **「我就叫Sunny怎么了」孙源** 
+> 
+> xxxx
+
+* Github: []()
+* Blog: []()
+* 新浪微博: []()
+* * 微信公众号：
+* 主要作品:
+
+----
+
+> **「请叫我汪二」** 
+> 
+> xxxx
+
+* Github: []()
+* Blog: []()
+* 新浪微博: []()
+* * 微信公众号：
+* 主要作品:
+
+----
+
+> **「叶孤城」** 
+> 
+> xxxx
+
+* Github: []()
+* Blog: []()
+* 新浪微博: []()
+* * 微信公众号：
+* 主要作品:
+
+----
+
+> **雷纯锋** 
+> 
+> xxxx
+
+* Github: []()
+* Blog: []()
+* 新浪微博: []()
+* * 微信公众号：
+* 主要作品:
+
+### 更多
+* [中文 iOS/Mac 开发博客列表](https://github.com/tangqiaoboy/iOSBlogCN) - [@唐巧_boy](http://weibo.com/tangqiaoboy) 维护的技术博客列表
+
+[----]: "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
+
+<!-- 
 周楷雯（[@周楷雯Kevin](http://weibo.com/kevinzhow)） | [Kevin Blog](http://blog.zhowkev.in/) / [kevinzhow](https://github.com/kevinzhow) | [《Producter》](http://producter.io/) / [PNChart](https://github.com/kevinzhow/PNChart)
 李明杰（[@M了个J](http://weibo.com/exceptions)） | [M了个J](http://www.cnblogs.com/mjios/) / [CoderMJLee](https://github.com/CoderMJLee) | [MJRefresh](https://github.com/CoderMJLee/MJRefresh) / [MJExtension](https://github.com/CoderMJLee/MJExtension) |
 [@南峰子_老驴](http://weibo.com/touristdiary) | [南峰子的技术博客](http://southpeak.github.io/) / [southpeak](https://github.com/southpeak) | ... |
@@ -581,11 +733,8 @@ Glow技术团队：<br/> 顾鹏（[@no-computer](http://weibo.com/p/100505171846
 曾宪华 | [Jack](http://www.pailixiu.com/Jack/personal/) / [xhzengAIB](https://github.com/xhzengAIB) | [MessageDisplayKit](https://github.com/xhzengAIB/MessageDisplayKit) / [PopMenu](https://github.com/xhzengAIB/PopMenu) / [RealTimeBlur](https://github.com/xhzengAIB/RealTimeBlur) |
 王轲（[@王轲_IndieBros](http://weibo.com/indiebros)） | [iWangKe.me](http://www.iwangke.me/) / [ewangkeH](https://github.com/ewangke) | ... |
 [@图拉鼎](http://weibo.com/tualatrix) | [IMTX](http://imtx.me/) / ... | [Manico](http://manico.im/) / [奇点微博客户端](https://itunes.apple.com/app/id947792507) |
+-->
 
-### 更多
-* [中文 iOS/Mac 开发博客列表](https://github.com/tangqiaoboy/iOSBlogCN) - [@唐巧_boy](http://weibo.com/tangqiaoboy) 维护的技术博客列表
-
-[----]: "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 
 [酷壳]:http://coolshell.cn/ "酷壳"
 [廖雪峰的官方网站]:http://www.liaoxuefeng.com/ "廖雪峰的官方网站"
